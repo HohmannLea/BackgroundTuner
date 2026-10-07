@@ -16,34 +16,40 @@ namespace BackgroundTuner.Services
         private Dictionary<string, string[]>? _lineCalibration;
         public string[]? _calibrationDataParts;
 
-        public Dataset _dataset = new Dataset();
-
-        private readonly ArchiveHandler archiveHandler;
-        public string FilePath { get; }
+        private readonly ArchiveHandler _archiveHandler;
         public string XMLFileName { get; } = "Experiment0/ExtBaseContainer.xml";
-        public Stream ExtBaseContainerXmlStream { get; }
-        public BSMLHandler(string filePath)
+        public Stream ExtBaseContainerXmlStream { get; set; }
+        public BSMLHandler(ArchiveHandler archiveHandler)
         {
-            FilePath = filePath;
-            archiveHandler = new ArchiveHandler();
-            archiveHandler.OpenArchive(FilePath);
-            ExtBaseContainerXmlStream = archiveHandler.GetFileStream(XMLFileName)
-                ?? throw new FileNotFoundException($"File entry '{XMLFileName}' was not found in archive '{FilePath}'.");
+            _archiveHandler = archiveHandler;
+        }
+
+        public Dataset LoadBSML(string filePath)
+        {
+            // Get XML from BSML using ArchiveHandler
+
+            _archiveHandler.OpenArchive(filePath);
+            ExtBaseContainerXmlStream = _archiveHandler.GetFileStream(XMLFileName)
+                ?? throw new FileNotFoundException($"File entry '{XMLFileName}' was not found in archive '{filePath}'.");
             _solutionData = XDocument.Load(ExtBaseContainerXmlStream);
+
+            //Create Dataset
+
+            Dataset currentDataset = new Dataset();
+
+            //Parse XML
 
             XElement root = _solutionData.Root;
 
             XElement solutionNode = root.Descendants("SolutionNode").FirstOrDefault(e => e.Element("SolutionNodeType")?.Value == "Solution");
             XDocument solutionInfo = XDocument.Parse(solutionNode.Element("SerializationData").Value);
             string serialNumber = solutionInfo.Root.Element("InstrumentSerialNumber").Value;
-            _dataset.instrumentNumber = serialNumber;
+            currentDataset.instrumentNumber = serialNumber;
 
             _calibratedMaterial = root.Descendants("SolutionNode").FirstOrDefault(e => e.Element("Name")?.Value == "CalibratedMaterial");
             XElement calibrationNode = _calibratedMaterial.Descendants("SolutionNode").FirstOrDefault(e => e.Element("Name")?.Value == "Manage Standards");
             _calibrationData = XDocument.Parse(calibrationNode.Element("SerializationData").Value);
-        }
-        public void CreateLines()
-        {
+      
             XElement calibRoot = _calibrationData.Root;
             var lineData = calibRoot.Element("Lines").Value;
 
@@ -81,22 +87,22 @@ namespace BackgroundTuner.Services
                 if (validdriftpoints.Contains(driftLinkInfo[1])) { driftIndices.Add(driftLinkInfo[2], driftLinkInfo[1]); }
             }
 
-            //Filter by theoretical backgrounds and fill out dataset
+            //Filter lines by theoretical backgrounds and fill out dataset
 
             foreach (var l in lineList.Keys)
             {   
                 if (lineList[l][3] == "theoreticalBackground")
                 {
                     Line line = new Line { LineIndex = l };
-                    _dataset.Lines.Add(line);
+                    currentDataset.Lines.Add(line);
                 }
             }
 
-            _dataset.masterInstrument = _lineCalibration["1"][4];
+            currentDataset.masterInstrument = _lineCalibration["1"][4];
 
-            // Extract line information from data and fill out the line instances
+            // Extract line information from data and fill out the line information
 
-            foreach (Line line in _dataset.Lines)
+            foreach (Line line in currentDataset.Lines)
             {
                 // Indices to reference XML data
                 line.MeasurementIndex = lineList[line.LineIndex][2];
@@ -107,10 +113,10 @@ namespace BackgroundTuner.Services
                 if (lineList[line.LineIndex][5] == "PhaFittedFirstOrder"){line.HasSensorBoost = true;}
 
                 // Drift entries
-                var latestDriftEntry = driftData[driftindex].Where(row => row[8] == _dataset.instrumentNumber).OrderByDescending(row => DateTimeOffset.Parse(row[6])).FirstOrDefault();
+                var latestDriftEntry = driftData[driftindex].Where(row => row[8] == currentDataset.instrumentNumber).OrderByDescending(row => DateTimeOffset.Parse(row[6])).FirstOrDefault();
                 line.CurrentDriftIntensity = double.Parse(latestDriftEntry[1]);
 
-                var masterDriftEntries = driftData[driftindex].Where(row => row[8] == _dataset.masterInstrument).OrderByDescending(row => DateTimeOffset.Parse(row[6])).ToList();
+                var masterDriftEntries = driftData[driftindex].Where(row => row[8] == currentDataset.masterInstrument).OrderByDescending(row => DateTimeOffset.Parse(row[6])).ToList();
                 var calibrationMeasDate = DateTimeOffset.Parse(_lineCalibration[line.LineIndex][2]);
                 var calibDriftEntry = masterDriftEntries.Where(row => DateTimeOffset.Parse(row[6]) <= calibrationMeasDate).FirstOrDefault();
                 if (calibDriftEntry == null)
@@ -119,12 +125,19 @@ namespace BackgroundTuner.Services
                 }
                 line.MasterDriftIntensity = double.Parse(calibDriftEntry[1]);
             }
+
+            return currentDataset;
         }
-       
+
+        public void EditBSML()
+        {
+
+        }
+        
         public void Dispose()
         {
             ExtBaseContainerXmlStream.Dispose();
-            archiveHandler.CloseArchive();
+            _archiveHandler.CloseArchive();
         }
     }
 }
