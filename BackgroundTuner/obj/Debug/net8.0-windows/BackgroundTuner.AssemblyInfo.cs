@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackgroundTuner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a39f4a83070f2491d72b7807b18ff99b6c3bc2e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackgroundTuner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackgroundTuner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
