@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rg0ZoXZFmO0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lea.Hohmann\\source\\repos\\BackgroundTuner\\ConsoleAppTests\\ConsoleAppTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lea.Hohmann\\.nuget\\packages\\bruker.fpq.phafitting\\5.2.0\\bruker.fpq.phafitting.5.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

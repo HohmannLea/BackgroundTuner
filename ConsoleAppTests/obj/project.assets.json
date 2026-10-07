@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Bruker.FPQ.PhaFitting/5.2.0": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/Bruker.FPQ.PhaFitting.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "BackgroundTuner/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Bruker.FPQ.PhaFitting": "5.2.0"
+        },
+        "compile": {
+          "bin/placeholder/BackgroundTuner.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BackgroundTuner.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Bruker.FPQ.PhaFitting/5.2.0": {
+      "sha512": "chESddnyblIRHxoMuEwvnyZVXS3lRErab+FkD7roPPo4dH8Z/T7LJWIFDpTLOCgr3DHkA7yr9cQZKrX3z5EX3w==",
+      "type": "package",
+      "path": "bruker.fpq.phafitting/5.2.0",
+      "files": [
+        ".nupkg.metadata",
+        "bruker.fpq.phafitting.5.2.0.nupkg.sha512",
+        "bruker.fpq.phafitting.nuspec",
+        "build/Bruker.FPQ.PhaFitting.targets",
+        "images/fpq.png",
+        "runtimes/win-x64/native/Bruker.FPQ.PhaFitting.dll"
+      ]
+    },
+    "BackgroundTuner/1.0.0": {
+      "type": "project",
+      "path": "../BackgroundTuner/BackgroundTuner.csproj",
+      "msbuildProject": "../BackgroundTuner/BackgroundTuner.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "BackgroundTuner >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Lea.Hohmann\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Lea.Hohmann\\source\\repos\\BackgroundTuner\\ConsoleAppTests\\ConsoleAppTests.csproj",
+      "projectName": "ConsoleAppTests",
+      "projectPath": "C:\\Users\\Lea.Hohmann\\source\\repos\\BackgroundTuner\\ConsoleAppTests\\ConsoleAppTests.csproj",
+      "packagesPath": "C:\\Users\\Lea.Hohmann\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lea.Hohmann\\source\\repos\\BackgroundTuner\\ConsoleAppTests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Lea.Hohmann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://svemea-devops01:8080/tfs/BrukerAXSCollection/_packaging/AXSFeed/nuget/v3/index.json": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Lea.Hohmann\\source\\repos\\BackgroundTuner\\BackgroundTuner\\BackgroundTuner.csproj": {
+              "projectPath": "C:\\Users\\Lea.Hohmann\\source\\repos\\BackgroundTuner\\BackgroundTuner\\BackgroundTuner.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.317/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
