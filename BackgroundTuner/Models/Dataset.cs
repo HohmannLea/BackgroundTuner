@@ -9,7 +9,7 @@ namespace BackgroundTuner.Models
     public class Dataset
     {
         public List<Line> Lines { get; } = new();
-        public string instrumentNumber { get; set; }
-        public string masterInstrument { get; set; }
+        public string? instrumentNumber { get; set; }
+        public string? masterInstrument { get; set; }
     }
 }

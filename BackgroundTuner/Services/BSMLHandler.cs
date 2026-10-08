@@ -1,10 +1,12 @@
-﻿using System;
+﻿using BackgroundTuner.Models;
+using System;
 using System.ComponentModel.Design.Serialization;
+using System.Globalization;
 using System.IO;
+using System.Text;
 using System.Windows.Markup;
 using System.Xaml;
 using System.Xml.Linq;
-using BackgroundTuner.Models;
 
 namespace BackgroundTuner.Services
 {
@@ -64,7 +66,7 @@ namespace BackgroundTuner.Services
 
             Dictionary<string, string[]> measuredLines = _calibrationDataParts[0].Split(new[] { "\n" }, StringSplitOptions.RemoveEmptyEntries).Skip(1).Select(row => row.Split(new[] { "\t" }, StringSplitOptions.RemoveEmptyEntries)).ToDictionary(cols => cols[0]);
             Dictionary<string, string[]> lineList = _calibrationDataParts[7].Split(new[] { "\n" }, StringSplitOptions.RemoveEmptyEntries).Skip(1).Select(row => row.Split(new[] { "\t" }, StringSplitOptions.RemoveEmptyEntries)).ToDictionary(cols => cols[0]);
-            _lineCalibration = _calibrationDataParts[9].Split(new[] { "\n" }, StringSplitOptions.RemoveEmptyEntries).Skip(1).Select(row => row.Split(new[] { "\t" }, StringSplitOptions.RemoveEmptyEntries)).ToDictionary(cols => cols[7]);
+            _lineCalibration = _calibrationDataParts[9].Split(new[] { "\n" }, StringSplitOptions.RemoveEmptyEntries).Skip(1).Select(row => row.Split("\t")).ToDictionary(cols => cols[7]);
             Dictionary<string, List<string[]>> driftData = _calibrationDataParts[12].Split(new[] { "\n" }, StringSplitOptions.RemoveEmptyEntries).Skip(1).Select(row => row.Split(new[] { "\t" }, StringSplitOptions.RemoveEmptyEntries)).GroupBy(cols => cols[5]).ToDictionary(g => g.Key, g => g.ToList());
 
             string[] driftCorrectionLink = _calibrationDataParts[11].Split(new[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
@@ -109,12 +111,12 @@ namespace BackgroundTuner.Services
                 string driftindex = driftIndices[line.LineIndex];
 
                 // Full line name and SensorBoost use
-                line.Name = measuredLines[line.MeasurementIndex][4] + "/" + lineList[line.LineIndex][6];
+                line.Name = measuredLines[line.MeasurementIndex][5] + "/" + lineList[line.LineIndex][6];
                 if (lineList[line.LineIndex][5] == "PhaFittedFirstOrder"){line.HasSensorBoost = true;}
 
                 // Drift entries
                 var latestDriftEntry = driftData[driftindex].Where(row => row[8] == currentDataset.instrumentNumber).OrderByDescending(row => DateTimeOffset.Parse(row[6])).FirstOrDefault();
-                line.CurrentDriftIntensity = double.Parse(latestDriftEntry[1]);
+                line.CurrentDriftIntensity = double.Parse(latestDriftEntry[1], CultureInfo.InvariantCulture);
 
                 var masterDriftEntries = driftData[driftindex].Where(row => row[8] == currentDataset.masterInstrument).OrderByDescending(row => DateTimeOffset.Parse(row[6])).ToList();
                 var calibrationMeasDate = DateTimeOffset.Parse(_lineCalibration[line.LineIndex][2]);
@@ -123,7 +125,12 @@ namespace BackgroundTuner.Services
                 {
                     calibDriftEntry = masterDriftEntries.Where(row => DateTimeOffset.Parse(row[6]) > calibrationMeasDate).LastOrDefault();
                 }
-                line.MasterDriftIntensity = double.Parse(calibDriftEntry[1]);
+                line.MasterDriftIntensity = double.Parse(calibDriftEntry[1], CultureInfo.InvariantCulture);
+
+                // Calibration
+
+                var xmlBytes = Convert.FromBase64String(_lineCalibration[line.LineIndex][13]);
+                line.Calibration = XDocument.Parse(Encoding.UTF8.GetString(xmlBytes, 0, xmlBytes.Length));
             }
 
             return currentDataset;

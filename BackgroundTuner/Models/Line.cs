@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Linq;
 
 namespace BackgroundTuner.Models
 {
@@ -17,6 +19,7 @@ namespace BackgroundTuner.Models
         public double? CurrentDriftIntensity { get; set; }
         public double? MasterBlankIntensity { get; set; }
         public double? CurrentBlankIntensity { get; set; }
+        public XDocument? Calibration { get; set; }
         public double? TheoBGFactorOld { get; set; } 
         public double? CorrectionFactor { get; set; }
         public double? CorrectedBGFactor { get; set; }
