@@ -1,0 +1,31 @@
+public List<double> LoadBRML(string filePath, string blankType, List<string> lineList)
+{
+    Dictionary<string, double> blankIntensities = new Dictionary<string, double>();
+
+    _archiveHandler.OpenArchive(filePath);
+    var dataFileEntries = _archiveHandler.GetDataEntries();
+    foreach (var entry in dataFileEntries)
+    {
+        var dataStream = _archiveHandler.GetFileStreamFromEntry(entry)
+            ?? throw new FileNotFoundException($"File entry '{entry.FullName}' was not found in archive '{filePath}'.");
+
+        XDocument measuredData = XDocument.Load(dataStream);
+        XElement? root = measuredData.Root;
+        if ((string?)root.Element("DataRoutes").Element("DataRoute").Attribute("ProcFlags") == "MeasuredBackground") 
+        { 
+            continue; 
+        }
+        XElement infoData = root.Element("FixedInformation").Element("MethodInformation").Elements("InfoData").Where(x => x.Attribute("xsi:type").Value == "MethodInfoData").FirstOrDefault();
+        string lineName = infoData.Element("MethodName").Value;
+
+        if (!lineList.Contains(lineName)) 
+        { 
+            continue; 
+        }
+
+
+
+
+    }   
+    return ;
+}
