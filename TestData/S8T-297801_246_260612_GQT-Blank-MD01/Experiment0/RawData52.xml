@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<RawData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CommanderDisplay="Measured" PlannedTimePerStep="0">
+  <IsResumePossible>true</IsResumePossible>
+  <MeasurementStatus>Measured</MeasurementStatus>
+  <TimeStampStarted>2026-06-12T13:30:39.6955245+02:00</TimeStampStarted>
+  <TimeStampFinished>2026-06-12T13:31:42.8483944+02:00</TimeStampFinished>
+  <ExtLocations />
+  <DataRoutes>
+    <DataRoute RouteFlag="Measured" ProcLevel="0" ProcLevelPre="0" Description="Originally measured data." VisibleDescription="">
+      <ScanInformation IsResumePossible="true" IsMultiScan="false" IsProfileAutoScan="false" IsAdvScan="false" IsAdvMultiScan="false" ClassTypeName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.ScanSetup" ScanName="StillScan#BrukerAXS.Common.ExperimentV5.Experiment.Logic.DetectorData0Dmode#HighSenseXE" VisibleName="Still (HighSenseXE (0D mode))" VisibleDescription="" UsedCreationControl="Cmd">
+        <MeasurementPoints>1</MeasurementPoints>
+        <DynInitialSteps>-1</DynInitialSteps>
+        <DsqRepeat>-1</DsqRepeat>
+        <EstimatedTime>60</EstimatedTime>
+        <TimePerStep>60</TimePerStep>
+        <TimePerStepEffective>60</TimePerStepEffective>
+        <InstructionSetNumber>52</InstructionSetNumber>
+        <InstructionSubScanNo>0</InstructionSubScanNo>
+        <OriginalSubScanNo>-1</OriginalSubScanNo>
+        <ScanMode>StillScan</ScanMode>
+        <IPAmode>Coplanar</IPAmode>
+        <AppType>Xrf</AppType>
+        <ScanModeVisibleName>Still</ScanModeVisibleName>
+        <StorageAllowed>BRML RAW</StorageAllowed>
+        <DetectorUsage ModeOperating="Mode0D" ModeResulting="Mode0D" ModeDisplay="Mode0D" />
+        <ScanAxes />
+        <FixedScanAxes />
+        <ScaleAxes />
+      </ScanInformation>
+      <SubScans>
+        <SubScanInfo Steps="1" MeasuredSteps="1" ViewSteps="1" TimeStampStarted="2026-06-12T13:31:42.8008039+02:00" DurationSec="60" StartStepNo="0" MeasuredTimePerStep="60" PlannedTimePerStep="60" />
+      </SubScans>
+      <Datum>60,1,26799,59.9996516119886,-1.3,-1.319630049,37.01,37.00276207</Datum>
+      <ExtLocations />
+      <PreScanExternalLinks />
+      <PostScanExternalLinks />
+      <DataViews>
+        <RawDataView xsi:type="FixedRawDataView" Start="0" Length="1" LogicName="MeasuredTime" Unit="s" />
+        <RawDataView xsi:type="FixedRawDataView" Start="1" Length="1" LogicName="AbsorptionFactor" Unit="" />
+        <RawDataView xsi:type="RecordedRawDataView" Start="2" Length="1" MeasuredDataIndex="0">
+          <Recording VisibleName="HighSenseXE (0D mode): 0D counter" VisibleDescription="" VisibleNameAlt="" LogicName="Counter0D" BeringPropertyName="counter0D" Category="Count" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.DetectorData0Dmode#HighSenseXE" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackHighSenseXE/HighSenseXE" ParentBeringObjectName="HighSenseXE" ParentBeringClassPath="/Component/Optic/Detector/Line/LynxEyeXE/LynxEye3/LynxEye3F" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="None" Base="Counts" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="26799" Rms="0" Maximum="26799" Minimum="26799" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="3" Length="1" MeasuredDataIndex="1">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="HighSenseXE (0D mode): Live time" VisibleDescription="" VisibleNameAlt="" LogicName="LiveTime" BeringPropertyName="LiveTime" Category="Undefined" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.DetectorData0Dmode#HighSenseXE" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackHighSenseXE/HighSenseXE" ParentBeringObjectName="HighSenseXE" ParentBeringClassPath="/Component/Optic/Detector/Line/LynxEyeXE/LynxEye3/LynxEye3F" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="None" Base="Second" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="59.999651611988561" Rms="0" Maximum="59.999651611988561" Minimum="59.999651611988561" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="4" Length="1" MeasuredDataIndex="2">
+          <Recording VisibleName="Sample Chamber Abs. Pressure" VisibleDescription="" VisibleNameAlt="" LogicName="modeActualPressure" BeringPropertyName="modeActualPressure" Category="Pressure" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.NonAmbientModeData" ParentBeringObjectPath="/Device/AtmosphereControl" ParentBeringObjectName="AtmosphereControl" ParentBeringClassPath="/Component/Container/NonAmbient/A55AtmosphereControl" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="Milli" Base="Bar" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="-1.3" Rms="0" Maximum="-1.3" Minimum="-1.3" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="5" Length="1" MeasuredDataIndex="3">
+          <Recording VisibleName="Averaged Sample Chamber Abs. Pressure" VisibleDescription="" VisibleNameAlt="" LogicName="modeActualPressureAveraged" BeringPropertyName="modeActualPressureAveraged" Category="Pressure" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.NonAmbientModeData" ParentBeringObjectPath="/Device/AtmosphereControl" ParentBeringObjectName="AtmosphereControl" ParentBeringClassPath="/Component/Container/NonAmbient/A55AtmosphereControl" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="Milli" Base="Bar" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="-1.319630049" Rms="0" Maximum="-1.319630049" Minimum="-1.319630049" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="6" Length="1" MeasuredDataIndex="4">
+          <Recording VisibleName="Actual Temperature" VisibleDescription="" VisibleNameAlt="" LogicName="modeActualTemp" BeringPropertyName="modeActualTemp" Category="Temperature" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.NonAmbientModeData" ParentBeringObjectPath="/Device/AtmosphereControl" ParentBeringObjectName="AtmosphereControl" ParentBeringClassPath="/Component/Container/NonAmbient/A55AtmosphereControl" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="None" Base="Celsius" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="37.01" Rms="0" Maximum="37.01" Minimum="37.01" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="7" Length="1" MeasuredDataIndex="5">
+          <Recording VisibleName="Averaged Actual Temperature" VisibleDescription="" VisibleNameAlt="" LogicName="modeActualTempAveraged" BeringPropertyName="modeActualTempAveraged" Category="Temperature" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.NonAmbientModeData" ParentBeringObjectPath="/Device/AtmosphereControl" ParentBeringObjectName="AtmosphereControl" ParentBeringClassPath="/Component/Container/NonAmbient/A55AtmosphereControl" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="None" Base="Celsius" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="37.00276207" Rms="0" Maximum="37.00276207" Minimum="37.00276207" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+      </DataViews>
+    </DataRoute>
+  </DataRoutes>
+  <FixedInformation>
+    <ExpanderInformation />
+    <MethodInformation>
+      <InfoData xsi:type="MethodInfoData" LogicName="BrukerAXS.Common.ExperimentV5.Xrf.XrfMethod" VisibleName="">
+        <MethodApplicationType>Xrf</MethodApplicationType>
+        <MethodApplicationTypeSpecific>XrfExtWdxRoutine</MethodApplicationTypeSpecific>
+        <MethodName>Cr KB1/GEO-QUANT TRACES</MethodName>
+        <MeasIndicator>Wizard</MeasIndicator>
+        <CreatedByIndicator>Wizard</CreatedByIndicator>
+        <WaitTime Unit="s" Value="0" />
+        <WaitTimePre Unit="s" Value="0" />
+        <WaitTimePost Unit="s" Value="0" />
+        <DesequenceResults />
+        <AppliedCoordTrafo>None</AppliedCoordTrafo>
+      </InfoData>
+      <InfoData xsi:type="XrfMeasurementDescriptionInfoData" baseType="MeasurementDescriptionInfoData" LogicName="BrukerAXS.Common.ExperimentV5.Xrf.MeasurementDescriptionXrfWdxExt" VisibleName="">
+        <InfoList>
+          <InfoItem Name="User" Value="Bruker Testfield" Unit="" />
+          <InfoItem Name="SamplePosition" Value="6C04" Unit="" />
+          <InfoItem Name="SampleName" Value="GQT.Blank-GQT0-MD01" Unit="" />
+          <InfoItem Name="BsmlFileName" Value="GEO-QUANT TRACES" Unit="" />
+          <InfoItem Name="InstrumentVerificationState" Value="Disabled" Unit="" />
+        </InfoList>
+        <Lines>
+          <string>Cr KB1/GEO-QUANT TRACES</string>
+        </Lines>
+        <MeasurementTypeInfo MeasurementType="wdxFixed" MeasuredBackground="false" PHA="false" MeasurementMode="Standard" />
+      </InfoData>
+    </MethodInformation>
+    <Drives>
+      <InfoData xsi:type="FixedDriveInfoData" LogicName="Theta" VisibleName="Theta" AxisId="Theta" IsMeasOptional="false" HasVirtualPosition="false" IsHidden="false">
+        <Position Unit="°" Value="47.07382823861203" />
+        <VirtualPosition Unit="°" Value="47.07382823861203" />
+        <OscillationSpeed Unit="°/min" Value="0" />
+        <OscillationAmplitude Unit="°" Value="0" />
+        <ExternalOffset Unit="°" Value="0.058651660332032" />
+      </InfoData>
+      <InfoData xsi:type="FixedDriveInfoData" LogicName="TwoTheta" VisibleName="Two Theta" AxisId="TwoTheta" IsMeasOptional="false" HasVirtualPosition="false" IsHidden="false">
+        <Position Unit="°" Value="94.1462991581244" />
+        <VirtualPosition Unit="°" Value="94.1462991581244" />
+        <OscillationSpeed Unit="°/min" Value="0" />
+        <OscillationAmplitude Unit="°" Value="0" />
+        <ExternalOffset Unit="°" Value="0.614438382204384" />
+      </InfoData>
+    </Drives>
+    <Detectors>
+      <InfoData xsi:type="DetectorInfoData0Dmode" baseType="DetectorInfoData" LogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.DetectorData0Dmode#HighSenseXE" VisibleName="HighSenseXE (0D mode)" DetectorMode="Mode0D" SpecificName="HighSenseXE">
+        <BeringInfo ObjectPath="/Device/Beampath/Goniometer/SecondaryTrackHighSenseXE/HighSenseXE" ClassPath="/Component/Optic/Detector/Line/LynxEyeXE/LynxEye3/LynxEye3F" />
+        <LinearOpening Unit="mm" Value="14.399999999999999" />
+        <AssociatedDetectorType>BrukerAXS.Common.ExperimentV5.Experiment.Logic.LynxEye3Data</AssociatedDetectorType>
+        <ProfileReference xsi:type="LynxEye3ProfileData" DataFileId="12" FileName="T=Rh;D=HighSenseXE;A=Xrf;P=HighGain" VisibleName="T=Rh;D=HighSenseXE;A=Xrf;P=HighGain">
+          <ProfileDataEntries />
+        </ProfileReference>
+        <InfoList>
+          <InfoItem Name="LLD" Value="2" Unit="keV" />
+          <InfoItem Name="ULD" Value="7.4467" Unit="keV" />
+          <InfoItem Name="ActivatonLimit" Value="10000" Unit="/s" />
+          <InfoItem Name="DeactivatonLimit" Value="7000" Unit="/s" />
+          <InfoItem Name="AbsolutePosition" Value="0" Unit="mm" />
+          <InfoItem Name="RelativePosition" Value="0" Unit="mm" />
+          <InfoItem Name="Deflection" Value="0" Unit="°" />
+          <InfoItem Name="Resolution" Value="0.0172038" Unit="°" />
+          <InfoItem Name="AngularOpening" Value="3.3031296" Unit="°" />
+          <InfoItem Name="ThetaFzeroOffset" Value="1.6" Unit="°" />
+          <InfoItem Name="ZeroOffset" Value="0" Unit="°" />
+          <InfoItem Name="Orientation" Value="0" Unit="°" />
+          <InfoItem Name="CenterChannel" Value="0" Unit="" />
+          <InfoItem Name="CenterOffset" Value="-1.6515648" Unit="°" />
+          <InfoItem Name="FastResolution" Value="0.0172038" Unit="°" />
+          <InfoItem Name="LowerDiscriminator" Value="0.2369768387" Unit="V" />
+          <InfoItem Name="UpperDiscriminator" Value="0.6796424218" Unit="V" />
+          <InfoItem Name="Interpolation" Value="9" Unit="" />
+          <InfoItem Name="Veto" Value="0.35" Unit="V" />
+          <InfoItem Name="ProfileReferencePV" Value="12" Unit="" />
+          <InfoItem Name="EnergyCalibSlope" Value="12.305" Unit="keV/V" />
+          <InfoItem Name="EnergyCalibOffset" Value="-0.916" Unit="keV" />
+          <InfoItem Name="ScanCounter" Value="0" Unit="counts" />
+          <InfoItem Name="Counter0D" Value="0" Unit="counts" />
+          <InfoItem Name="Binning" Value="1" Unit="" />
+          <InfoItem Name="ProfileDataEntry.Veto" Value="0.35" Unit="V" />
+          <InfoItem Name="ProfileDataEntry.LowerDiscriminator" Value="0.237" Unit="V" />
+          <InfoItem Name="ProfileDataEntry.EnergyCalibSlope" Value="12.305" Unit="keV/V" />
+          <InfoItem Name="ProfileDataEntry.EnergyCalibOffset" Value="-0.916" Unit="keV" />
+          <InfoItem Name="ProfileDataEntry.UpperDiscriminator" Value="1" Unit="V" />
+        </InfoList>
+      </InfoData>
+    </Detectors>
+    <Unspecifics>
+      <InfoData xsi:type="SynchronousRotationInfoData" baseType="RotationInfoData" LogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SynchronousRotationData" VisibleName="SampleHandler">
+        <IsRotating>true</IsRotating>
+      </InfoData>
+    </Unspecifics>
+    <NonAmbients>
+      <InfoData xsi:type="NonAmbientInfoData" baseType="InfoData" LogicName="AtmosphereControl" VisibleName="AtmosphereControl" SampleEnvironmentType="Atmosphere" ModeName="modeVacuum" ModeVisibleName="Vacuum">
+        <Settings />
+      </InfoData>
+    </NonAmbients>
+    <Instrument>
+      <BeamPathContainers>
+        <BeamPathInfo xsi:type="GoniometerInfo">
+          <BeamPathContainers>
+            <BeamPathInfo>
+              <BeamPathContainers />
+              <GoniometerCenter LogicName="" VisibleName="" />
+              <PrimaryTracks />
+              <SecondaryTracks>
+                <TrackInfoData LogicName="SecondaryTrackHighSenseXE" VisibleName="SecondaryTrackHighSenseXE">
+                  <Radius Unit="mm" Value="113" />
+                  <BeamPathOffset Unit="°" Value="0" />
+                  <MountedOptics>
+                    <InfoData xsi:type="OpticPlaceHolderInfoData" baseType="OpticInfoData" LogicName="HighSenseXE" VisibleName="HighSenseXE" BankPosition="18">
+                      <Deflection Unit="°" Value="0" />
+                      <AbsolutePosition Unit="mm" Value="0" />
+                      <BeringInfo ObjectPath="/Device/Beampath/Goniometer/SecondaryTrackHighSenseXE/HighSenseXE" ClassPath="/Component/Optic/Detector/Line/LynxEyeXE/LynxEye3/LynxEye3F" />
+                    </InfoData>
+                    <InfoData xsi:type="SollerInfoData" baseType="OpticInfoData" LogicName="DetectorSoller" VisibleName="DetectorSoller 0 [°]" BankPosition="15">
+                      <Deflection Unit="°" Value="0" />
+                      <AbsolutePosition Unit="mm" Value="0" />
+                      <BeringInfo ObjectPath="/Device/Beampath/Goniometer/SecondaryTrackHighSenseXE/DetectorSoller" ClassPath="/Component/Optic/Soller/Axial/Standard" />
+                      <Orientation>Axial</Orientation>
+                      <AxialDivergence Unit="°" Value="0" />
+                      <EquatorialDivergence Unit="°" Value="0" />
+                    </InfoData>
+                  </MountedOptics>
+                  <NonCoPlanarOffset Unit="°" Value="180" />
+                  <TiltAngle Unit="°" Value="0" />
+                </TrackInfoData>
+              </SecondaryTracks>
+              <CrystalChangerPosition LogicName="CrystalPosition" VisibleName="CrystalPosition">
+                <Radius Unit="mm" Value="0" />
+                <BeamPathOffset Unit="°" Value="0" />
+                <MountedOptics>
+                  <InfoData xsi:type="MultiPositionOpticInfoData" baseType="OpticInfoData" LogicName="CrystalChanger" VisibleName="CrystalChanger" BankPosition="0">
+                    <Deflection Unit="°" Value="0" />
+                    <AbsolutePosition Unit="mm" Value="0" />
+                    <BeringInfo ObjectPath="/Device/Beampath/Goniometer/CrystalPosition/CrystalChanger" ClassPath="/Component/Optic/MultiPosition/OpticChanger/CrystalChanger" />
+                    <UsedAbsorptionfactor>1</UsedAbsorptionfactor>
+                    <SelectedPosition>6</SelectedPosition>
+                    <Setting />
+                    <SelectedComponents>
+                      <InfoData xsi:type="BeampathCrystalOpticPropertyData" baseType="OpticInfoData" LogicName="Crystal06_LiF220" VisibleName="Crystal06_LiF220" BankPosition="0">
+                        <Deflection Unit="°" Value="0" />
+                        <AbsolutePosition Unit="mm" Value="0" />
+                        <BeringInfo ObjectPath="/Device/Beampath/Goniometer/CrystalPosition/CrystalChanger/Crystal06_LiF220" ClassPath="/Component/Optic/BeampathCrystal" />
+                        <CrystalName Value="LiF220" />
+                        <LatticePlaneDistance Unit="Å" Value="2.848" />
+                        <K0 Unit="°" Value="0.03588425598" />
+                        <K1 Unit="°" Value="-0.0552022365" />
+                        <K2 Unit="°" Value="0.01544254209" />
+                        <Delta Unit="" Value="0" />
+                        <H Unit="mm" Value="0" />
+                      </InfoData>
+                    </SelectedComponents>
+                  </InfoData>
+                </MountedOptics>
+                <NonCoPlanarOffset Unit="°" Value="0" />
+                <TiltAngle Unit="°" Value="0" />
+              </CrystalChangerPosition>
+            </BeamPathInfo>
+          </BeamPathContainers>
+          <GoniometerCenter LogicName="" VisibleName="" />
+          <PrimaryTracks />
+          <SecondaryTracks />
+          <BetweenSampleAndGonio LogicName="BetweenSampleAndGonio" VisibleName="BetweenSampleAndGonio">
+            <Radius Unit="mm" Value="0" />
+            <BeamPathOffset Unit="°" Value="0" />
+            <MountedOptics>
+              <InfoData xsi:type="ExchangeableOpticInfoData" baseType="OpticInfoData" LogicName="ExchangeableMask" VisibleName="ExchangeableMask" BankPosition="2">
+                <Deflection Unit="°" Value="0" />
+                <AbsolutePosition Unit="mm" Value="0" />
+                <BeringInfo ObjectPath="/Device/Beampath/Goniometer/BetweenSampleAndGonio/ExchangeableMask" ClassPath="/Component/Optic/Exchangeable/Position" />
+                <SelectedComponents>
+                  <InfoData xsi:type="MaskOpticInfoData" baseType="OpticInfoData" LogicName="Mask_34mm" VisibleName="Mask_34mm" BankPosition="2">
+                    <Deflection Unit="°" Value="0" />
+                    <AbsolutePosition Unit="mm" Value="0" />
+                    <BeringInfo ObjectPath="/Device/Parts/ManualMasks/Mask_34mm" ClassPath="/Component/Optic/Mask" />
+                    <ParentBeringInfo ObjectPath="/Device/Beampath/Goniometer/BetweenSampleAndGonio/ExchangeableMask" ClassPath="/Component/Optic/Exchangeable/Position" />
+                    <Width Unit="mm" Value="34" />
+                  </InfoData>
+                </SelectedComponents>
+              </InfoData>
+              <InfoData xsi:type="MultiPositionOpticInfoData" baseType="OpticInfoData" LogicName="CollimatorChanger" VisibleName="CollimatorChanger" BankPosition="12">
+                <Deflection Unit="°" Value="0" />
+                <AbsolutePosition Unit="mm" Value="0" />
+                <BeringInfo ObjectPath="/Device/Beampath/Goniometer/BetweenSampleAndGonio/CollimatorChanger" ClassPath="/Component/Optic/MultiPosition/OpticChanger/CollimatorChanger" />
+                <UsedAbsorptionfactor>1</UsedAbsorptionfactor>
+                <SelectedPosition>1</SelectedPosition>
+                <Setting />
+                <SelectedComponents>
+                  <InfoData xsi:type="SollerInfoData" baseType="OpticInfoData" LogicName="Collimator01_023" VisibleName="Collimator01_023 0.23 [°]" BankPosition="12">
+                    <Deflection Unit="°" Value="0" />
+                    <AbsolutePosition Unit="mm" Value="0" />
+                    <BeringInfo ObjectPath="/Device/Beampath/Goniometer/BetweenSampleAndGonio/CollimatorChanger/Collimator01_023" ClassPath="/Component/Optic/Soller/Axial/Standard" />
+                    <Orientation>Axial</Orientation>
+                    <AxialDivergence Unit="°" Value="0.23" />
+                    <EquatorialDivergence Unit="°" Value="0" />
+                  </InfoData>
+                </SelectedComponents>
+              </InfoData>
+            </MountedOptics>
+            <FixedAngle Unit="°" Value="0" />
+            <NonCoPlanarOffset Unit="°" Value="0" />
+            <TiltAngle Unit="°" Value="0" />
+          </BetweenSampleAndGonio>
+          <GoniometerType>Theta_2Theta</GoniometerType>
+          <Orientation>Vertical</Orientation>
+          <SampleTakeOffAngle Unit="°" Value="45" />
+        </BeamPathInfo>
+      </BeamPathContainers>
+      <GoniometerCenter LogicName="" VisibleName="">
+        <Stage LogicName="SampleStage" VisibleName="SampleStage" StageType="Undefined">
+          <BeringInfo ObjectPath="/Device/Beampath/SamplePosition/SampleStage" ClassPath="/Component/Optic/SampleStage/Manual" />
+          <SubStage LogicName="Atmosphere" VisibleName="Atmosphere" StageType="Undefined">
+            <BeringInfo ObjectPath="/Device/Beampath/SamplePosition/SampleStage/Atmosphere" ClassPath="/Component/Optic/NonAmbientAttachment/Atmosphere" />
+          </SubStage>
+        </Stage>
+      </GoniometerCenter>
+      <PrimaryTracks>
+        <TrackInfoData LogicName="PrimaryTrack" VisibleName="PrimaryTrack">
+          <Radius Unit="mm" Value="0" />
+          <BeamPathOffset Unit="°" Value="0" />
+          <MountedOptics>
+            <InfoData xsi:type="TubeMountInfoData" baseType="OpticInfoData" LogicName="XRayTube" VisibleName="XRayTube" BankPosition="1">
+              <Deflection Unit="°" Value="0" />
+              <AbsolutePosition Unit="mm" Value="0" />
+              <BeringInfo ObjectPath="/Device/Beampath/PrimaryTrack/XRayTube" ClassPath="/Component/Optic/Tubemount/A55" />
+              <Tube LogicName="Tube_OEG95_Rh_J" VisibleName="Tube_OEG95_Rh_J">
+                <BeringInfo ObjectPath="/Device/Beampath/PrimaryTrack/XRayTube/Tube_OEG95_Rh_J" ClassPath="/Component/Optic/Tube/A55" />
+                <WaveLengthAlpha1 Unit="Å" Value="0" />
+                <WaveLengthAlpha2 Unit="Å" Value="0" />
+                <WaveLengthAverage Unit="Å" Value="0" />
+                <WaveLengthBeta Unit="Å" Value="0" />
+                <WaveLengthRatio Unit="" Value="0" />
+                <FocusOrientation Unit="" Value="2" />
+                <FocusOrientationText>Point Focus</FocusOrientationText>
+                <WindowThickness Unit="mm" Value="0.075" />
+                <SerialNumber Unit="" Value="27433" />
+                <TypeNumber Unit="" Value="110" />
+                <TubeMaterial>Rh</TubeMaterial>
+                <Generator LogicName="Tube_OEG95_Rh_J" VisibleName="Generator">
+                  <BeringInfo ObjectPath="/Device/Beampath/PrimaryTrack/XRayTube/Tube_OEG95_Rh_J" ClassPath="/Component/Optic/Tube/A55" />
+                  <Voltage Unit="kV" Value="50" />
+                  <Current Unit="mA" Value="60" />
+                </Generator>
+              </Tube>
+            </InfoData>
+            <InfoData xsi:type="MultiPositionOpticInfoData" baseType="OpticInfoData" LogicName="FilterChanger" VisibleName="FilterChanger" BankPosition="5">
+              <Deflection Unit="°" Value="0" />
+              <AbsolutePosition Unit="mm" Value="0" />
+              <BeringInfo ObjectPath="/Device/Beampath/PrimaryTrack/FilterChanger" ClassPath="/Component/Optic/MultiPosition/OpticChanger/FilterChanger" />
+              <UsedAbsorptionfactor>1</UsedAbsorptionfactor>
+              <SelectedPosition>3</SelectedPosition>
+              <Setting />
+              <SelectedComponents>
+                <InfoData xsi:type="PositionOpenInfoData" baseType="OpticInfoData" LogicName="Filter03_Open" VisibleName="Filter03_Open" BankPosition="0">
+                  <Deflection Unit="°" Value="0" />
+                  <AbsolutePosition Unit="mm" Value="0" />
+                  <BeringInfo ObjectPath="/Device/Beampath/PrimaryTrack/FilterChanger/Filter03_Open" ClassPath="/Component/Optic/Open" />
+                </InfoData>
+              </SelectedComponents>
+            </InfoData>
+          </MountedOptics>
+          <FixedAngle Unit="°" Value="60" />
+          <NonCoPlanarOffset Unit="°" Value="-10" />
+          <TiltAngle Unit="°" Value="0" />
+        </TrackInfoData>
+      </PrimaryTracks>
+      <SecondaryTracks />
+    </Instrument>
+  </FixedInformation>
+  <Identifier IdentificationType="Data" UserName="" MachineName="3RJF9G4">
+    <Guid>30dbdf56-ffd2-47b7-a0f1-583521e192f0</Guid>
+    <Comment />
+    <TimeStampCreated>2026-06-12T13:30:39.6511639+02:00</TimeStampCreated>
+    <AdditionalIdentifications IdentificationType="Instruction" UserName="" MachineName="3RJF9G4">
+      <Guid>2157172e-5648-4a8b-8539-fda8d6bb60d1</Guid>
+      <Comment />
+      <TimeStampCreated>2026-06-12T13:29:36.5519942+02:00</TimeStampCreated>
+      <AdditionalIdentifications IdentificationType="Method" UserName="" MachineName="3RJF9G4">
+        <Guid>f95a555d-6c11-487f-bba6-7114d0fa6ec0</Guid>
+        <Comment />
+        <TimeStampCreated>2026-06-12T12:35:53.017051+02:00</TimeStampCreated>
+        <AdditionalIdentifications IdentificationType="Method" UserName="" MachineName="3RJF9G4">
+          <Guid>d5828776-10ba-4cdd-8296-e18bb3476bfb</Guid>
+          <Comment />
+          <TimeStampCreated>2026-06-12T12:35:51.9697016+02:00</TimeStampCreated>
+        </AdditionalIdentifications>
+      </AdditionalIdentifications>
+    </AdditionalIdentifications>
+  </Identifier>
+</RawData>

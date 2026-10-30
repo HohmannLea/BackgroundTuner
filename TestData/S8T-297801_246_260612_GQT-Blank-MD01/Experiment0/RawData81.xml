@@ -1,0 +1,725 @@
+<?xml version="1.0"?>
+<RawData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CommanderDisplay="Measured" PlannedTimePerStep="0">
+  <IsResumePossible>true</IsResumePossible>
+  <MeasurementStatus>Measured</MeasurementStatus>
+  <TimeStampStarted>2026-06-12T14:01:42.5928007+02:00</TimeStampStarted>
+  <TimeStampFinished>2026-06-12T14:02:45.9277631+02:00</TimeStampFinished>
+  <ExtLocations />
+  <DataRoutes>
+    <DataRoute RouteFlag="Measured" ProcFlags="MeasuredBackground" ProcLevel="0" ProcLevelPre="0" Description="Originally measured data." VisibleDescription="">
+      <ScanInformation IsResumePossible="true" IsMultiScan="false" IsProfileAutoScan="false" IsAdvScan="false" IsAdvMultiScan="false" ClassTypeName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.ExternalStorageScanSetup" ScanName="StillScan#BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" VisibleName="Still (FlowCounter)" VisibleDescription="" UsedCreationControl="Cmd">
+        <MeasurementPoints>1</MeasurementPoints>
+        <DynInitialSteps>-1</DynInitialSteps>
+        <DsqRepeat>-1</DsqRepeat>
+        <EstimatedTime>60</EstimatedTime>
+        <TimePerStep>60</TimePerStep>
+        <TimePerStepEffective>60</TimePerStepEffective>
+        <InstructionSetNumber>81</InstructionSetNumber>
+        <InstructionSubScanNo>0</InstructionSubScanNo>
+        <OriginalSubScanNo>-1</OriginalSubScanNo>
+        <ScanMode>StillScan</ScanMode>
+        <IPAmode>Coplanar</IPAmode>
+        <AppType>Xrf</AppType>
+        <ScanModeVisibleName>Still</ScanModeVisibleName>
+        <StorageAllowed>None</StorageAllowed>
+        <DetectorUsage ModeOperating="Mode1D" ModeResulting="Mode1D" ModeDisplay="Mode1D" />
+        <ScanAxes />
+        <FixedScanAxes />
+        <ScaleAxes>
+          <ScaleAxisInfo xsi:type="ScaleAxisInfoRegular" DisplayTarget="X" AxisName="Channels" VisibleName="Channels" UIVisibility="Primary" Unit="Channel" AxisId="Channels" AxisProcessing="None">
+            <Unit Prefix="None" Base="Channel" />
+            <Reference>0</Reference>
+            <Start>0</Start>
+            <Stop>1023</Stop>
+            <Increment>1</Increment>
+          </ScaleAxisInfo>
+        </ScaleAxes>
+      </ScanInformation>
+      <SubScans>
+        <SubScanInfo Steps="1" MeasuredSteps="1" ViewSteps="1" TimeStampStarted="2026-06-12T14:02:45.8645724+02:00" DurationSec="60" StartStepNo="0" MeasuredTimePerStep="60" PlannedTimePerStep="60" />
+      </SubScans>
+      <Datum>60,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,16,0,16,16,0,32,16,48,0,48,0,0,0,17,0,16,32,0,0,16,48,32,0,0,0,32,80,0,16,64,32,0,16,48,16,0,16,32,16,32,0,16,16,32,0,32,32,32,16,16,0,16,16,16,16,64,48,80,0,48,81,64,80,48,112,64,48,80,128,96,96,208,176,128,224,96,144,160,257,160,224,369,304,336,304,305,256,497,480,464,512,513,430,609,577,512,562,672,817,722,752,832,833,961,1024,832,1121,1025,832,880,994,1281,1363,1522,1248,1264,1216,848,1088,1424,1585,1409,1448,1505,1362,1472,1220,1216,1424,1634,1571,1344,1169,1360,1645,1409,1281,1376,1249,1216,1283,1122,1106,1185,1504,1248,1264,1091,1184,1154,1217,992,1115,945,938,992,1025,704,801,592,577,673,704,778,577,609,560,417,641,465,384,609,609,368,513,305,272,530,304,193,272,208,352,128,240,240,208,145,144,65,176,128,147,128,80,80,80,80,128,97,32,112,48,80,64,32,16,64,64,64,48,16,32,16,0,64,16,32,32,16,32,0,64,16,48,16,32,16,64,0,0,0,32,32,16,16,16,16,32,0,16,16,32,48,16,16,16,16,16,32,16,16,16,32,0,32,16,0,16,16,16,16,64,32,16,48,16,16,64,64,16,32,16,48,32,0,16,16,0,16,49,16,16,0,49,32,80,0,48,16,16,16,32,32,64,48,49,64,48,48,16,49,48,48,48,17,48,96,48,64,81,80,48,48,32,48,16,80,80,48,32,48,0,32,80,33,32,32,32,80,96,48,64,80,112,96,96,48,64,112,32,64,64,64,48,64,80,16,48,80,48,112,96,32,64,48,48,32,32,48,16,32,48,65,48,48,80,16,80,48,80,64,64,16,80,32,0,96,96,96,48,32,80,16,48,48,33,32,64,48,16,81,32,48,16,32,48,16,64,16,32,64,64,80,16,80,48,0,16,32,80,0,16,16,32,80,32,32,0,64,0,0,96,48,16,48,16,16,32,128,0,48,0,80,32,48,32,80,0,0,0,0,48,32,32,80,32,64,48,64,48,48,16,16,48,32,32,48,32,32,48,64,32,32,32,0,64,80,16,32,48,80,48,16,80,65,48,0,16,16,112,80,48,80,0,80,64,48,16,80,96,96,96,113,48,48,32,96,32,80,80,32,64,96,80,80,48,64,192,96,32,80,32,80,80,160,128,48,64,64,144,48,112,48,80,96,113,48,80,112,132,48,48,160,64,48,48,96,112,64,112,112,112,49,128,128,96,144,160,112,112,113,224,176,112,96,112,160,48,96,208,176,96,96,80,144,240,128,160,64,96,32,64,192,128,192,208,112,112,80,113,208,80,96,80,144,128,80,128,176,176,80,192,160,48,160,64,112,144,176,96,96,112,160,128,128,128,16,96,64,112,64,80,112,80,96,176,193,33,272,48,32,192,112,128,160,128,336,128,96,128,80,160,172,112,128,112,146,176,112,192,48,144,96,129,128,128,144,128,80,129,144,80,144,80,242,128,16,112,144,32,64,176,96,160,2353,1888,993,496,449,512,400,240,512,240,311,128,273,288,416,353,336,448,304,176,256,272,208,208,320,256,225,208,336,240,160,240,256,256,304,352,272,240,321,400,305,224,304,288,321,336,272,304,400,320,225,352,288,289,352,241,144,384,176,288,240,288,225,368,176,288,225,368,320,272,304,272,352,384,337,320,240,289,288,352,304,369,352,240,385,448,304,273,401,400,304,418,513,384,320,336,352,370,464,416,640,401,529,528,497,448,432,400,544,577,512,608,433,816,865,853,672,864,1009,992,1072,1680,656,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,180072,11253,97282,59.99728094,60,11243,5948.03352452737,77.8434411092662,82,0,290.054919912567,0.272745276199981,0,0,187.583500846564,422.159832657411,20.5465284818972,15,1176.77431654833,34.3041443057297,0,0,8,-1.3,-1.234150185,37,36.99735828</Datum>
+      <ExtLocations />
+      <PreScanExternalLinks />
+      <PostScanExternalLinks />
+      <DataViews>
+        <RawDataView xsi:type="FixedRawDataView" Start="0" Length="1" LogicName="MeasuredTime" Unit="s" />
+        <RawDataView xsi:type="FixedRawDataView" Start="1" Length="1" LogicName="AbsorptionFactor" Unit="" />
+        <RawDataView xsi:type="RecordedRawDataView" Start="2" Length="1024" MeasuredDataIndex="0">
+          <Recording VisibleName="FlowCounter: EnergySpec" VisibleDescription="" VisibleNameAlt="" LogicName="EnergySpec" BeringPropertyName="energySpec" Category="Count" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="None" Base="Counts" />
+            <Size>
+              <X>1024</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1024</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="175.8515625" Rms="317.88625839883139" Maximum="2353" Minimum="0" MaximumChannel="822" MinimumChannel="0" Status="Succeeded" UsedValues="1024" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1026" Length="1" MeasuredDataIndex="1024">
+          <Recording VisibleName="FlowCounter: 0D counter" VisibleDescription="" VisibleNameAlt="" LogicName="Counter0D" BeringPropertyName="counter0D" Category="Count" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="None" Base="Counts" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="180072" Rms="0" Maximum="180072" Minimum="180072" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1027" Length="1" MeasuredDataIndex="1025">
+          <Recording VisibleName="FlowCounter: 0D Counter RAW" VisibleDescription="" VisibleNameAlt="" LogicName="Counter0DUncorr" BeringPropertyName="counter0DUncorr" Category="Count" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="None" Base="Counts" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="11253" Rms="0" Maximum="11253" Minimum="11253" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1028" Length="1" MeasuredDataIndex="1026">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="FlowCounter: Counter 0D Discr" VisibleDescription="" VisibleNameAlt="" LogicName="Counter 0D Discr" BeringPropertyName="Counter 0D Discr" Category="Count" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="None" Base="Counts" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="97282" Rms="0" Maximum="97282" Minimum="97282" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1029" Length="1" MeasuredDataIndex="1027">
+          <Recording VisibleName="FlowCounter: Live time" VisibleDescription="" VisibleNameAlt="" LogicName="LiveTime" BeringPropertyName="liveTime" Category="Undefined" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="None" Base="Second" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="59.99728094" Rms="0" Maximum="59.99728094" Minimum="59.99728094" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1030" Length="1" MeasuredDataIndex="1028">
+          <Recording VisibleName="FlowCounter: Real time" VisibleDescription="" VisibleNameAlt="" LogicName="RealTime" BeringPropertyName="realTime" Category="Undefined" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="None" Base="Second" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="60" Rms="0" Maximum="60" Minimum="60" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1031" Length="1" MeasuredDataIndex="1029">
+          <Recording VisibleName="FlowCounter: 0D Counter Peak" VisibleDescription="" VisibleNameAlt="" LogicName="Counter0DPeak" BeringPropertyName="fchPeakDetCounter" Category="Count" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="None" Base="Counts" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="11243" Rms="0" Maximum="11243" Minimum="11243" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1032" Length="1" MeasuredDataIndex="1030">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="FlowCounter: Counts (SensorBoost)" VisibleDescription="" VisibleNameAlt="" LogicName="Counter0DPHA" BeringPropertyName="Counter0DPHA" Category="Count" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="None" Base="Counts" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="5948.0335245273682" Rms="0" Maximum="5948.0335245273682" Minimum="5948.0335245273682" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1033" Length="1" MeasuredDataIndex="1031">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="FlowCounter: Counts (SensorBoost) error" VisibleDescription="" VisibleNameAlt="" LogicName="Counter0DPHAError" BeringPropertyName="Counter0DPHAError" Category="Count" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="None" Base="Counts" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="77.843441109266223" Rms="0" Maximum="77.843441109266223" Minimum="77.843441109266223" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1034" Length="1" MeasuredDataIndex="1032">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="FlowCounter: Channel number at zero energy" VisibleDescription="" VisibleNameAlt="" LogicName="ChannelAtZeroEnergy" BeringPropertyName="ChannelAtZeroEnergy" Category="Technical" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="None" Base="None" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="82" Rms="0" Maximum="82" Minimum="82" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1035" Length="1" MeasuredDataIndex="1033">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="FlowCounter: Channel number at zero energy error" VisibleDescription="" VisibleNameAlt="" LogicName="ChannelAtZeroEnergyError" BeringPropertyName="ChannelAtZeroEnergyError" Category="Technical" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="None" Base="None" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="0" Rms="0" Maximum="0" Minimum="0" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1036" Length="1" MeasuredDataIndex="1034">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="FlowCounter: Channel number at first order energy" VisibleDescription="" VisibleNameAlt="" LogicName="ChannelAtFirstOrder" BeringPropertyName="ChannelAtFirstOrder" Category="Technical" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="None" Base="None" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="290.05491991256685" Rms="0" Maximum="290.05491991256685" Minimum="290.05491991256685" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1037" Length="1" MeasuredDataIndex="1035">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="FlowCounter: Channel number at first order energy error" VisibleDescription="" VisibleNameAlt="" LogicName="ChannelAtFirstOrderError" BeringPropertyName="ChannelAtFirstOrderError" Category="Technical" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="None" Base="None" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="0.27274527619998074" Rms="0" Maximum="0.27274527619998074" Minimum="0.27274527619998074" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1038" Length="1" MeasuredDataIndex="1036">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="FlowCounter: Aging" VisibleDescription="" VisibleNameAlt="" LogicName="Aging" BeringPropertyName="Aging" Category="Technical" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="None" Base="None" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="0" Rms="0" Maximum="0" Minimum="0" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1039" Length="1" MeasuredDataIndex="1037">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="FlowCounter: Aging error" VisibleDescription="" VisibleNameAlt="" LogicName="AgingError" BeringPropertyName="AgingError" Category="Technical" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="None" Base="None" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="0" Rms="0" Maximum="0" Minimum="0" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1040" Length="1" MeasuredDataIndex="1038">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="FlowCounter: Check total count rate" VisibleDescription="" VisibleNameAlt="" LogicName="TotalCountRatePHA" BeringPropertyName="TotalCountRatePHA" Category="Technical" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="None" Base="None" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="187.58350084656351" Rms="0" Maximum="187.58350084656351" Minimum="187.58350084656351" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1041" Length="1" MeasuredDataIndex="1039">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="FlowCounter: PHA 2nd order" VisibleDescription="" VisibleNameAlt="" LogicName="Counter0D2ndOrderPHA" BeringPropertyName="Counter0D2ndOrderPHA" Category="Count" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="None" Base="Counts" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="422.15983265741124" Rms="0" Maximum="422.15983265741124" Minimum="422.15983265741124" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1042" Length="1" MeasuredDataIndex="1040">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="FlowCounter: PHA 2nd order error" VisibleDescription="" VisibleNameAlt="" LogicName="Counter0D2ndOrderPHAError" BeringPropertyName="Counter0D2ndOrderPHAError" Category="Count" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="None" Base="Counts" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="20.546528481897159" Rms="0" Maximum="20.546528481897159" Minimum="20.546528481897159" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1043" Length="1" MeasuredDataIndex="1041">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="FlowCounter: Fit time" VisibleDescription="" VisibleNameAlt="" LogicName="FitTimePHA" BeringPropertyName="FitTimePHA" Category="Time" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="Milli" Base="Second" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="15" Rms="0" Maximum="15" Minimum="15" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1044" Length="5" MeasuredDataIndex="1042">
+          <Recording xsi:type="RecordingFilterParameter" VisibleName="FlowCounter: Extra values from PHA fit" VisibleDescription="" VisibleNameAlt="" LogicName="ExtraValuesPHA" BeringPropertyName="ExtraValuesPHA" Category="Other" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" ParentBeringObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ParentBeringObjectName="FlowCounter" ParentBeringClassPath="/Component/Optic/Detector/Point/MCA/Speedy" BeringObjectIndex="" ExternalFileRecording="StandardVirtual">
+            <Unit Prefix="None" Base="Counts" />
+            <Size>
+              <X>5</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="243.81569217081096" Rms="466.64935608241603" Maximum="1176.774316548325" Minimum="0" MaximumChannel="0" MinimumChannel="2" Status="Succeeded" UsedValues="5" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1049" Length="1" MeasuredDataIndex="1047">
+          <Recording VisibleName="Sample Chamber Abs. Pressure" VisibleDescription="" VisibleNameAlt="" LogicName="modeActualPressure" BeringPropertyName="modeActualPressure" Category="Pressure" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.NonAmbientModeData" ParentBeringObjectPath="/Device/AtmosphereControl" ParentBeringObjectName="AtmosphereControl" ParentBeringClassPath="/Component/Container/NonAmbient/A55AtmosphereControl" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="Milli" Base="Bar" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="-1.3" Rms="0" Maximum="-1.3" Minimum="-1.3" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1050" Length="1" MeasuredDataIndex="1048">
+          <Recording VisibleName="Averaged Sample Chamber Abs. Pressure" VisibleDescription="" VisibleNameAlt="" LogicName="modeActualPressureAveraged" BeringPropertyName="modeActualPressureAveraged" Category="Pressure" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.NonAmbientModeData" ParentBeringObjectPath="/Device/AtmosphereControl" ParentBeringObjectName="AtmosphereControl" ParentBeringClassPath="/Component/Container/NonAmbient/A55AtmosphereControl" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="Milli" Base="Bar" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="-1.234150185" Rms="0" Maximum="-1.234150185" Minimum="-1.234150185" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1051" Length="1" MeasuredDataIndex="1049">
+          <Recording VisibleName="Actual Temperature" VisibleDescription="" VisibleNameAlt="" LogicName="modeActualTemp" BeringPropertyName="modeActualTemp" Category="Temperature" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.NonAmbientModeData" ParentBeringObjectPath="/Device/AtmosphereControl" ParentBeringObjectName="AtmosphereControl" ParentBeringClassPath="/Component/Container/NonAmbient/A55AtmosphereControl" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="None" Base="Celsius" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="37" Rms="0" Maximum="37" Minimum="37" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+        <RawDataView xsi:type="RecordedRawDataView" Start="1052" Length="1" MeasuredDataIndex="1050">
+          <Recording VisibleName="Averaged Actual Temperature" VisibleDescription="" VisibleNameAlt="" LogicName="modeActualTempAveraged" BeringPropertyName="modeActualTempAveraged" Category="Temperature" UIVisibility="Primary" ParentLogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.NonAmbientModeData" ParentBeringObjectPath="/Device/AtmosphereControl" ParentBeringObjectName="AtmosphereControl" ParentBeringClassPath="/Component/Container/NonAmbient/A55AtmosphereControl" BeringObjectIndex="" ExternalFileRecording="Standard">
+            <Unit Prefix="None" Base="Celsius" />
+            <Size>
+              <X>1</X>
+              <Y>1</Y>
+            </Size>
+            <LogicSize>
+              <X>1</X>
+              <Y>1</Y>
+            </LogicSize>
+            <BlankingValue>-9999</BlankingValue>
+            <IsFloatingMean>false</IsFloatingMean>
+            <UseForAutoAbsorber>true</UseForAutoAbsorber>
+          </Recording>
+          <Statistics Mean="36.99735828" Rms="0" Maximum="36.99735828" Minimum="36.99735828" MaximumChannel="0" MinimumChannel="0" Status="Succeeded" UsedValues="1" />
+        </RawDataView>
+      </DataViews>
+    </DataRoute>
+  </DataRoutes>
+  <FixedInformation>
+    <ExpanderInformation />
+    <MethodInformation>
+      <InfoData xsi:type="MethodInfoData" LogicName="BrukerAXS.Common.ExperimentV5.Xrf.XrfMethod" VisibleName="">
+        <MethodApplicationType>Xrf</MethodApplicationType>
+        <MethodApplicationTypeSpecific>XrfExtWdxRoutine</MethodApplicationTypeSpecific>
+        <MethodName>S  KA1/GEO-QUANT TRACES|P  KA1/GEO-QUANT TRACES - ALT|P  KA1/GEO-QUANT TRACES</MethodName>
+        <MeasIndicator>Wizard</MeasIndicator>
+        <CreatedByIndicator>Wizard</CreatedByIndicator>
+        <WaitTime Unit="s" Value="0" />
+        <WaitTimePre Unit="s" Value="0" />
+        <WaitTimePost Unit="s" Value="0" />
+        <DesequenceResults />
+        <AppliedCoordTrafo>None</AppliedCoordTrafo>
+      </InfoData>
+      <InfoData xsi:type="XrfMeasurementDescriptionInfoData" baseType="MeasurementDescriptionInfoData" LogicName="BrukerAXS.Common.ExperimentV5.Xrf.MeasurementDescriptionXrfWdxExt" VisibleName="">
+        <InfoList>
+          <InfoItem Name="User" Value="Bruker Testfield" Unit="" />
+          <InfoItem Name="SamplePosition" Value="6C04" Unit="" />
+          <InfoItem Name="SampleName" Value="GQT.Blank-GQT0-MD01" Unit="" />
+          <InfoItem Name="BsmlFileName" Value="GEO-QUANT TRACES" Unit="" />
+          <InfoItem Name="InstrumentVerificationState" Value="Disabled" Unit="" />
+        </InfoList>
+        <Lines>
+          <string>S  KA1/GEO-QUANT TRACES</string>
+          <string>P  KA1/GEO-QUANT TRACES - ALT</string>
+          <string>P  KA1/GEO-QUANT TRACES</string>
+        </Lines>
+        <MeasurementTypeInfo MeasurementType="wdxFixed" MeasuredBackground="true" PHA="false" MeasurementMode="Standard" />
+      </InfoData>
+    </MethodInformation>
+    <Drives>
+      <InfoData xsi:type="FixedDriveInfoData" LogicName="Theta" VisibleName="Theta" AxisId="Theta" IsMeasOptional="false" HasVirtualPosition="false" IsHidden="false">
+        <Position Unit="°" Value="48.4019325830227" />
+        <VirtualPosition Unit="°" Value="48.4019325830227" />
+        <OscillationSpeed Unit="°/min" Value="0" />
+        <OscillationAmplitude Unit="°" Value="0" />
+        <ExternalOffset Unit="°" Value="0.0864085797427023" />
+      </InfoData>
+      <InfoData xsi:type="FixedDriveInfoData" LogicName="TwoTheta" VisibleName="Two Theta" AxisId="TwoTheta" IsMeasOptional="false" HasVirtualPosition="false" IsHidden="false">
+        <Position Unit="°" Value="96.803517640756" />
+        <VirtualPosition Unit="°" Value="96.803517640756" />
+        <OscillationSpeed Unit="°/min" Value="0" />
+        <OscillationAmplitude Unit="°" Value="0" />
+        <ExternalOffset Unit="°" Value="0.102756047835967" />
+      </InfoData>
+    </Drives>
+    <Detectors>
+      <InfoData xsi:type="SpeedyInfoData" baseType="DetectorInfoData" LogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SpeedyEnergyData#FlowCounter" VisibleName="FlowCounter" DetectorMode="Mode1D" SpecificName="FlowCounter">
+        <BeringInfo ObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ClassPath="/Component/Optic/Detector/Point/MCA/Speedy" />
+        <ElectronicNoise Unit="eV" Value="50" />
+        <Fano Unit="" Value="0" />
+        <ProfileReference xsi:type="LynxEye3ProfileData" DataFileId="72" FileName="T=Rh;D=FlowCounter;C=Crystal04_PET;A=Xrf;P=HighCountRate" VisibleName="T=Rh;D=FlowCounter;C=Crystal04_PET;A=Xrf;P=HighCountRate">
+          <ProfileDataEntries />
+        </ProfileReference>
+        <StartChannel Unit="" Value="206" />
+        <EndChannel Unit="" Value="386" />
+        <LLD Unit="%" Value="60" />
+        <ULD Unit="%" Value="145" />
+        <CounterScalingFactor Unit="" Value="0.0625" />
+        <PhaFittingVersion>5.2.0: FlowCounter | Published 06/26/2025 13:45:58 +00:00 from FlowCounter LiF200 and PET.phadb</PhaFittingVersion>
+      </InfoData>
+    </Detectors>
+    <Unspecifics>
+      <InfoData xsi:type="SynchronousRotationInfoData" baseType="RotationInfoData" LogicName="BrukerAXS.Common.ExperimentV5.Experiment.Logic.SynchronousRotationData" VisibleName="SampleHandler">
+        <IsRotating>true</IsRotating>
+      </InfoData>
+    </Unspecifics>
+    <NonAmbients>
+      <InfoData xsi:type="NonAmbientInfoData" baseType="InfoData" LogicName="AtmosphereControl" VisibleName="AtmosphereControl" SampleEnvironmentType="Atmosphere" ModeName="modeVacuum" ModeVisibleName="Vacuum">
+        <Settings />
+      </InfoData>
+    </NonAmbients>
+    <Instrument>
+      <BeamPathContainers>
+        <BeamPathInfo xsi:type="GoniometerInfo">
+          <BeamPathContainers>
+            <BeamPathInfo>
+              <BeamPathContainers />
+              <GoniometerCenter LogicName="" VisibleName="" />
+              <PrimaryTracks />
+              <SecondaryTracks>
+                <TrackInfoData LogicName="SecondaryTrackFlowCounter" VisibleName="SecondaryTrackFlowCounter">
+                  <Radius Unit="mm" Value="61.8" />
+                  <BeamPathOffset Unit="°" Value="35" />
+                  <MountedOptics>
+                    <InfoData xsi:type="OpticPlaceHolderInfoData" baseType="OpticInfoData" LogicName="FlowCounter" VisibleName="FlowCounter" BankPosition="18">
+                      <Deflection Unit="°" Value="0" />
+                      <AbsolutePosition Unit="mm" Value="0" />
+                      <BeringInfo ObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/FlowCounter" ClassPath="/Component/Optic/Detector/Point/MCA/Speedy" />
+                    </InfoData>
+                    <InfoData xsi:type="SollerInfoData" baseType="OpticInfoData" LogicName="DetectorSoller" VisibleName="DetectorSoller 0 [°]" BankPosition="15">
+                      <Deflection Unit="°" Value="0" />
+                      <AbsolutePosition Unit="mm" Value="20" />
+                      <BeringInfo ObjectPath="/Device/Beampath/Goniometer/SecondaryTrackFlowCounter/DetectorSoller" ClassPath="/Component/Optic/Soller/Axial/Standard" />
+                      <Orientation>Axial</Orientation>
+                      <AxialDivergence Unit="°" Value="0" />
+                      <EquatorialDivergence Unit="°" Value="0" />
+                    </InfoData>
+                  </MountedOptics>
+                  <NonCoPlanarOffset Unit="°" Value="180" />
+                  <TiltAngle Unit="°" Value="0" />
+                </TrackInfoData>
+              </SecondaryTracks>
+              <CrystalChangerPosition LogicName="CrystalPosition" VisibleName="CrystalPosition">
+                <Radius Unit="mm" Value="0" />
+                <BeamPathOffset Unit="°" Value="0" />
+                <MountedOptics>
+                  <InfoData xsi:type="MultiPositionOpticInfoData" baseType="OpticInfoData" LogicName="CrystalChanger" VisibleName="CrystalChanger" BankPosition="0">
+                    <Deflection Unit="°" Value="0" />
+                    <AbsolutePosition Unit="mm" Value="0" />
+                    <BeringInfo ObjectPath="/Device/Beampath/Goniometer/CrystalPosition/CrystalChanger" ClassPath="/Component/Optic/MultiPosition/OpticChanger/CrystalChanger" />
+                    <UsedAbsorptionfactor>1</UsedAbsorptionfactor>
+                    <SelectedPosition>4</SelectedPosition>
+                    <Setting />
+                    <SelectedComponents>
+                      <InfoData xsi:type="BeampathCrystalOpticPropertyData" baseType="OpticInfoData" LogicName="Crystal04_PET" VisibleName="Crystal04_PET" BankPosition="0">
+                        <Deflection Unit="°" Value="0" />
+                        <AbsolutePosition Unit="mm" Value="0" />
+                        <BeringInfo ObjectPath="/Device/Beampath/Goniometer/CrystalPosition/CrystalChanger/Crystal04_PET" ClassPath="/Component/Optic/BeampathCrystal" />
+                        <CrystalName Value="PET" />
+                        <LatticePlaneDistance Unit="Å" Value="8.7565134" />
+                        <K0 Unit="°" Value="-0.04710835746" />
+                        <K1 Unit="°" Value="0.04717102344" />
+                        <K2 Unit="°" Value="-0.006182946719" />
+                        <Delta Unit="" Value="0" />
+                        <H Unit="mm" Value="0" />
+                      </InfoData>
+                    </SelectedComponents>
+                  </InfoData>
+                </MountedOptics>
+                <NonCoPlanarOffset Unit="°" Value="0" />
+                <TiltAngle Unit="°" Value="0" />
+              </CrystalChangerPosition>
+            </BeamPathInfo>
+          </BeamPathContainers>
+          <GoniometerCenter LogicName="" VisibleName="" />
+          <PrimaryTracks />
+          <SecondaryTracks />
+          <BetweenSampleAndGonio LogicName="BetweenSampleAndGonio" VisibleName="BetweenSampleAndGonio">
+            <Radius Unit="mm" Value="0" />
+            <BeamPathOffset Unit="°" Value="0" />
+            <MountedOptics>
+              <InfoData xsi:type="ExchangeableOpticInfoData" baseType="OpticInfoData" LogicName="ExchangeableMask" VisibleName="ExchangeableMask" BankPosition="2">
+                <Deflection Unit="°" Value="0" />
+                <AbsolutePosition Unit="mm" Value="0" />
+                <BeringInfo ObjectPath="/Device/Beampath/Goniometer/BetweenSampleAndGonio/ExchangeableMask" ClassPath="/Component/Optic/Exchangeable/Position" />
+                <SelectedComponents>
+                  <InfoData xsi:type="MaskOpticInfoData" baseType="OpticInfoData" LogicName="Mask_34mm" VisibleName="Mask_34mm" BankPosition="2">
+                    <Deflection Unit="°" Value="0" />
+                    <AbsolutePosition Unit="mm" Value="0" />
+                    <BeringInfo ObjectPath="/Device/Parts/ManualMasks/Mask_34mm" ClassPath="/Component/Optic/Mask" />
+                    <ParentBeringInfo ObjectPath="/Device/Beampath/Goniometer/BetweenSampleAndGonio/ExchangeableMask" ClassPath="/Component/Optic/Exchangeable/Position" />
+                    <Width Unit="mm" Value="34" />
+                  </InfoData>
+                </SelectedComponents>
+              </InfoData>
+              <InfoData xsi:type="MultiPositionOpticInfoData" baseType="OpticInfoData" LogicName="CollimatorChanger" VisibleName="CollimatorChanger" BankPosition="12">
+                <Deflection Unit="°" Value="0" />
+                <AbsolutePosition Unit="mm" Value="0" />
+                <BeringInfo ObjectPath="/Device/Beampath/Goniometer/BetweenSampleAndGonio/CollimatorChanger" ClassPath="/Component/Optic/MultiPosition/OpticChanger/CollimatorChanger" />
+                <UsedAbsorptionfactor>1</UsedAbsorptionfactor>
+                <SelectedPosition>1</SelectedPosition>
+                <Setting />
+                <SelectedComponents>
+                  <InfoData xsi:type="SollerInfoData" baseType="OpticInfoData" LogicName="Collimator01_023" VisibleName="Collimator01_023 0.23 [°]" BankPosition="12">
+                    <Deflection Unit="°" Value="0" />
+                    <AbsolutePosition Unit="mm" Value="0" />
+                    <BeringInfo ObjectPath="/Device/Beampath/Goniometer/BetweenSampleAndGonio/CollimatorChanger/Collimator01_023" ClassPath="/Component/Optic/Soller/Axial/Standard" />
+                    <Orientation>Axial</Orientation>
+                    <AxialDivergence Unit="°" Value="0.23" />
+                    <EquatorialDivergence Unit="°" Value="0" />
+                  </InfoData>
+                </SelectedComponents>
+              </InfoData>
+            </MountedOptics>
+            <FixedAngle Unit="°" Value="0" />
+            <NonCoPlanarOffset Unit="°" Value="0" />
+            <TiltAngle Unit="°" Value="0" />
+          </BetweenSampleAndGonio>
+          <GoniometerType>Theta_2Theta</GoniometerType>
+          <Orientation>Vertical</Orientation>
+          <SampleTakeOffAngle Unit="°" Value="45" />
+        </BeamPathInfo>
+      </BeamPathContainers>
+      <GoniometerCenter LogicName="" VisibleName="">
+        <Stage LogicName="SampleStage" VisibleName="SampleStage" StageType="Undefined">
+          <BeringInfo ObjectPath="/Device/Beampath/SamplePosition/SampleStage" ClassPath="/Component/Optic/SampleStage/Manual" />
+          <SubStage LogicName="Atmosphere" VisibleName="Atmosphere" StageType="Undefined">
+            <BeringInfo ObjectPath="/Device/Beampath/SamplePosition/SampleStage/Atmosphere" ClassPath="/Component/Optic/NonAmbientAttachment/Atmosphere" />
+          </SubStage>
+        </Stage>
+      </GoniometerCenter>
+      <PrimaryTracks>
+        <TrackInfoData LogicName="PrimaryTrack" VisibleName="PrimaryTrack">
+          <Radius Unit="mm" Value="0" />
+          <BeamPathOffset Unit="°" Value="0" />
+          <MountedOptics>
+            <InfoData xsi:type="TubeMountInfoData" baseType="OpticInfoData" LogicName="XRayTube" VisibleName="XRayTube" BankPosition="1">
+              <Deflection Unit="°" Value="0" />
+              <AbsolutePosition Unit="mm" Value="0" />
+              <BeringInfo ObjectPath="/Device/Beampath/PrimaryTrack/XRayTube" ClassPath="/Component/Optic/Tubemount/A55" />
+              <Tube LogicName="Tube_OEG95_Rh_J" VisibleName="Tube_OEG95_Rh_J">
+                <BeringInfo ObjectPath="/Device/Beampath/PrimaryTrack/XRayTube/Tube_OEG95_Rh_J" ClassPath="/Component/Optic/Tube/A55" />
+                <WaveLengthAlpha1 Unit="Å" Value="0" />
+                <WaveLengthAlpha2 Unit="Å" Value="0" />
+                <WaveLengthAverage Unit="Å" Value="0" />
+                <WaveLengthBeta Unit="Å" Value="0" />
+                <WaveLengthRatio Unit="" Value="0" />
+                <FocusOrientation Unit="" Value="2" />
+                <FocusOrientationText>Point Focus</FocusOrientationText>
+                <WindowThickness Unit="mm" Value="0.075" />
+                <SerialNumber Unit="" Value="27433" />
+                <TypeNumber Unit="" Value="110" />
+                <TubeMaterial>Rh</TubeMaterial>
+                <Generator LogicName="Tube_OEG95_Rh_J" VisibleName="Generator">
+                  <BeringInfo ObjectPath="/Device/Beampath/PrimaryTrack/XRayTube/Tube_OEG95_Rh_J" ClassPath="/Component/Optic/Tube/A55" />
+                  <Voltage Unit="kV" Value="30" />
+                  <Current Unit="mA" Value="100" />
+                </Generator>
+              </Tube>
+            </InfoData>
+            <InfoData xsi:type="MultiPositionOpticInfoData" baseType="OpticInfoData" LogicName="FilterChanger" VisibleName="FilterChanger" BankPosition="5">
+              <Deflection Unit="°" Value="0" />
+              <AbsolutePosition Unit="mm" Value="0" />
+              <BeringInfo ObjectPath="/Device/Beampath/PrimaryTrack/FilterChanger" ClassPath="/Component/Optic/MultiPosition/OpticChanger/FilterChanger" />
+              <UsedAbsorptionfactor>1</UsedAbsorptionfactor>
+              <SelectedPosition>3</SelectedPosition>
+              <Setting />
+              <SelectedComponents>
+                <InfoData xsi:type="PositionOpenInfoData" baseType="OpticInfoData" LogicName="Filter03_Open" VisibleName="Filter03_Open" BankPosition="0">
+                  <Deflection Unit="°" Value="0" />
+                  <AbsolutePosition Unit="mm" Value="0" />
+                  <BeringInfo ObjectPath="/Device/Beampath/PrimaryTrack/FilterChanger/Filter03_Open" ClassPath="/Component/Optic/Open" />
+                </InfoData>
+              </SelectedComponents>
+            </InfoData>
+          </MountedOptics>
+          <FixedAngle Unit="°" Value="60" />
+          <NonCoPlanarOffset Unit="°" Value="-10" />
+          <TiltAngle Unit="°" Value="0" />
+        </TrackInfoData>
+      </PrimaryTracks>
+      <SecondaryTracks />
+    </Instrument>
+  </FixedInformation>
+  <Identifier IdentificationType="Data" UserName="" MachineName="3RJF9G4">
+    <Guid>f049bbf7-e02e-4fda-b69d-0e812fefb44c</Guid>
+    <Comment />
+    <TimeStampCreated>2026-06-12T14:01:42.5569074+02:00</TimeStampCreated>
+    <AdditionalIdentifications IdentificationType="Instruction" UserName="" MachineName="3RJF9G4">
+      <Guid>aa87c049-c174-48e1-9fe9-c9ad9bb4444b</Guid>
+      <Comment />
+      <TimeStampCreated>2026-06-12T14:00:39.1244494+02:00</TimeStampCreated>
+      <AdditionalIdentifications IdentificationType="Method" UserName="" MachineName="3RJF9G4">
+        <Guid>d41139ba-69a2-4f9e-a2d0-4049e2fc66df</Guid>
+        <Comment />
+        <TimeStampCreated>2026-06-12T12:35:53.0742483+02:00</TimeStampCreated>
+        <AdditionalIdentifications IdentificationType="Method" UserName="" MachineName="3RJF9G4">
+          <Guid>81a41b3f-a5e4-4738-b336-a72b61655939</Guid>
+          <Comment />
+          <TimeStampCreated>2026-06-12T12:35:52.4628353+02:00</TimeStampCreated>
+        </AdditionalIdentifications>
+      </AdditionalIdentifications>
+    </AdditionalIdentifications>
+  </Identifier>
+</RawData>

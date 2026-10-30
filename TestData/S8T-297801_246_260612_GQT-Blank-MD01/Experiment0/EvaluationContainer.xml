@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<EvaluationContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CreatingVersion>9.4.21.0</CreatingVersion>
+  <Nodes />
+  <Identifier IdentificationType="EvaluationResult" UserName="" MachineName="DESKTOP-FBQ7C8O">
+    <Guid>57f2dc3b-09fe-4c95-b2e4-4f4413177cc9</Guid>
+    <Comment />
+    <TimeStampCreated>2026-02-25T16:11:46.0050469+01:00</TimeStampCreated>
+    <AdditionalIdentifications IdentificationType="Experiment" UserName="" MachineName="DESKTOP-FBQ7C8O">
+      <Guid>23aefbf1-2223-43eb-8cc4-d07b7fc40ad0</Guid>
+      <Comment />
+      <TimeStampCreated>2026-02-25T16:11:46.0050469+01:00</TimeStampCreated>
+    </AdditionalIdentifications>
+  </Identifier>
+  <Evaluations />
+</EvaluationContainer>

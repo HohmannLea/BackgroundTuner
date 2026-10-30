@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<TemplateContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CreatingVersion>9.4.37.0</CreatingVersion>
+  <Nodes />
+  <Identifier IdentificationType="Template" UserName="" MachineName="3RJF9G4">
+    <Guid>d996054c-85d4-4c72-ae2c-f20d4d15248d</Guid>
+    <Comment />
+    <TimeStampCreated>2026-06-12T12:35:50.2368052+02:00</TimeStampCreated>
+    <AdditionalIdentifications IdentificationType="ContainerNode" UserName="" MachineName="3RJF9G4">
+      <Guid>72aa197b-e1e1-48bb-bda4-cbd122742fd4</Guid>
+      <Comment />
+      <TimeStampCreated>2026-06-12T12:35:49.3949268+02:00</TimeStampCreated>
+    </AdditionalIdentifications>
+  </Identifier>
+</TemplateContainer>

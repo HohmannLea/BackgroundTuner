@@ -16,7 +16,6 @@ namespace BackgroundTuner.Services
             }
             archive = ZipFile.Open(archivePath, ZipArchiveMode.Read);
         }
-
         public Stream? GetFileStream(string fileName)
         {
             if (archive == null)
@@ -24,6 +23,20 @@ namespace BackgroundTuner.Services
                 throw new InvalidOperationException("Archive is not opened.");
             }
             var entry = archive.GetEntry(fileName);
+            return entry?.Open();
+        }
+
+        public List<ZipArchiveEntry> GetDataEntries()
+        {
+            if (archive == null)
+            {
+                throw new InvalidOperationException("Archive is not opened.");
+            }
+            return archive.Entries.Where(e => e.Name.StartsWith("RawData")).ToList();
+        }
+
+        public Stream? GetFileStreamFromEntry(ZipArchiveEntry entry)
+        {
             return entry?.Open();
         }
 

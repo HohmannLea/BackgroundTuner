@@ -11,12 +11,12 @@ namespace BackgroundTuner.Services
     public class BGRecalculator
     {
         public bool Calculate(Line line) {
-            if (line.MasterDriftIntensity.HasValue && line.CurrentDriftIntensity.HasValue && line.MasterBlankIntensity.HasValue && line.CurrentBlankIntensity.HasValue)
+            if (line._masterDriftIntensity.HasValue && line._currentDriftIntensity.HasValue && line._masterBlankIntensity.HasValue && line._currentBlankIntensity.HasValue)
             {
-                double DCfactor = line.MasterDriftIntensity.Value / line.CurrentDriftIntensity.Value; 
-                double PredictedBlank = line.MasterBlankIntensity.Value / DCfactor;
-                line.CorrectionFactor = line.CurrentBlankIntensity.Value / PredictedBlank;
-                line.CorrectedBGFactor = line.TheoBGFactorOld.Value * line.CorrectionFactor.Value;
+                double DCfactor = line._masterDriftIntensity.Value / line._currentDriftIntensity.Value; 
+                double PredictedBlank = line._masterBlankIntensity.Value / DCfactor;
+                line._correctionFactor = line._currentBlankIntensity.Value / PredictedBlank;
+                line._correctedBGFactor = line._theoBGFactorOld.Value * line._correctionFactor.Value;
 
                 return true;
 

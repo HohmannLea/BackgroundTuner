@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Bruker.FPQ.PhaFitting" Version="5.2.0" />
+    <PackageReference Include="BrukerAXS.IO.SimpleBrmlReader.Xrf" Version="12.0.1" />
   </ItemGroup>
 
 </Project>

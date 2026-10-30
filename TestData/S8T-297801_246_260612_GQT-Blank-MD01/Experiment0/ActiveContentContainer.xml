@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ActiveContentContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CreatingVersion>9.4.21.0</CreatingVersion>
+  <Nodes />
+  <Identifier IdentificationType="ActiveContent" UserName="" MachineName="DESKTOP-FBQ7C8O">
+    <Guid>9d42e28a-6a3d-4baf-8778-5c0b637f9921</Guid>
+    <Comment />
+    <TimeStampCreated>2026-02-25T16:11:46.0050469+01:00</TimeStampCreated>
+    <AdditionalIdentifications IdentificationType="Experiment" UserName="" MachineName="DESKTOP-FBQ7C8O">
+      <Guid>23aefbf1-2223-43eb-8cc4-d07b7fc40ad0</Guid>
+      <Comment />
+      <TimeStampCreated>2026-02-25T16:11:46.0050469+01:00</TimeStampCreated>
+    </AdditionalIdentifications>
+  </Identifier>
+  <UserTaskFile />
+  <MeasurementActivities />
+  <PreActivities />
+  <PostActivites />
+</ActiveContentContainer>

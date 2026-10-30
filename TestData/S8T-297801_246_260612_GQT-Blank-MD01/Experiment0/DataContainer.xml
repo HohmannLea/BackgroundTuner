@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<DataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" RawDataLength="91">
+  <CreatingVersion>9.4.37.0</CreatingVersion>
+  <Nodes />
+  <Identifier IdentificationType="RawData" UserName="" MachineName="3RJF9G4">
+    <Guid>36eb8530-a859-4b81-8a07-2c9dc194d3c3</Guid>
+    <Comment />
+    <TimeStampCreated>2026-06-12T12:35:53.122684+02:00</TimeStampCreated>
+    <AdditionalIdentifications IdentificationType="RawData" UserName="" MachineName="3RJF9G4">
+      <Guid>3261b999-b087-4927-a6c7-eff75641e13f</Guid>
+      <Comment>Created by MeasurementScript</Comment>
+      <TimeStampCreated>2026-06-12T12:35:53.122684+02:00</TimeStampCreated>
+    </AdditionalIdentifications>
+  </Identifier>
+  <ExpansionModelUsed>Standard</ExpansionModelUsed>
+  <MatchingModelUsed>Strict</MatchingModelUsed>
+  <RawDataExpected>91</RawDataExpected>
+  <RawDataReferenceList>
+    <string>Experiment0/RawData0.xml</string>
+    <string>Experiment0/RawData1.xml</string>
+    <string>Experiment0/RawData2.xml</string>
+    <string>Experiment0/RawData3.xml</string>
+    <string>Experiment0/RawData4.xml</string>
+    <string>Experiment0/RawData5.xml</string>
+    <string>Experiment0/RawData6.xml</string>
+    <string>Experiment0/RawData7.xml</string>
+    <string>Experiment0/RawData8.xml</string>
+    <string>Experiment0/RawData9.xml</string>
+    <string>Experiment0/RawData10.xml</string>
+    <string>Experiment0/RawData11.xml</string>
+    <string>Experiment0/RawData12.xml</string>
+    <string>Experiment0/RawData13.xml</string>
+    <string>Experiment0/RawData14.xml</string>
+    <string>Experiment0/RawData15.xml</string>
+    <string>Experiment0/RawData16.xml</string>
+    <string>Experiment0/RawData17.xml</string>
+    <string>Experiment0/RawData18.xml</string>
+    <string>Experiment0/RawData19.xml</string>
+    <string>Experiment0/RawData20.xml</string>
+    <string>Experiment0/RawData21.xml</string>
+    <string>Experiment0/RawData22.xml</string>
+    <string>Experiment0/RawData23.xml</string>
+    <string>Experiment0/RawData24.xml</string>
+    <string>Experiment0/RawData25.xml</string>
+    <string>Experiment0/RawData26.xml</string>
+    <string>Experiment0/RawData27.xml</string>
+    <string>Experiment0/RawData28.xml</string>
+    <string>Experiment0/RawData29.xml</string>
+    <string>Experiment0/RawData30.xml</string>
+    <string>Experiment0/RawData31.xml</string>
+    <string>Experiment0/RawData32.xml</string>
+    <string>Experiment0/RawData33.xml</string>
+    <string>Experiment0/RawData34.xml</string>
+    <string>Experiment0/RawData35.xml</string>
+    <string>Experiment0/RawData36.xml</string>
+    <string>Experiment0/RawData37.xml</string>
+    <string>Experiment0/RawData38.xml</string>
+    <string>Experiment0/RawData39.xml</string>
+    <string>Experiment0/RawData40.xml</string>
+    <string>Experiment0/RawData41.xml</string>
+    <string>Experiment0/RawData42.xml</string>
+    <string>Experiment0/RawData43.xml</string>
+    <string>Experiment0/RawData44.xml</string>
+    <string>Experiment0/RawData45.xml</string>
+    <string>Experiment0/RawData46.xml</string>
+    <string>Experiment0/RawData47.xml</string>
+    <string>Experiment0/RawData48.xml</string>
+    <string>Experiment0/RawData49.xml</string>
+    <string>Experiment0/RawData50.xml</string>
+    <string>Experiment0/RawData51.xml</string>
+    <string>Experiment0/RawData52.xml</string>
+    <string>Experiment0/RawData53.xml</string>
+    <string>Experiment0/RawData54.xml</string>
+    <string>Experiment0/RawData55.xml</string>
+    <string>Experiment0/RawData56.xml</string>
+    <string>Experiment0/RawData57.xml</string>
+    <string>Experiment0/RawData58.xml</string>
+    <string>Experiment0/RawData59.xml</string>
+    <string>Experiment0/RawData60.xml</string>
+    <string>Experiment0/RawData61.xml</string>
+    <string>Experiment0/RawData62.xml</string>
+    <string>Experiment0/RawData63.xml</string>
+    <string>Experiment0/RawData64.xml</string>
+    <string>Experiment0/RawData65.xml</string>
+    <string>Experiment0/RawData66.xml</string>
+    <string>Experiment0/RawData67.xml</string>
+    <string>Experiment0/RawData68.xml</string>
+    <string>Experiment0/RawData69.xml</string>
+    <string>Experiment0/RawData70.xml</string>
+    <string>Experiment0/RawData71.xml</string>
+    <string>Experiment0/RawData72.xml</string>
+    <string>Experiment0/RawData73.xml</string>
+    <string>Experiment0/RawData74.xml</string>
+    <string>Experiment0/RawData75.xml</string>
+    <string>Experiment0/RawData76.xml</string>
+    <string>Experiment0/RawData77.xml</string>
+    <string>Experiment0/RawData78.xml</string>
+    <string>Experiment0/RawData79.xml</string>
+    <string>Experiment0/RawData80.xml</string>
+    <string>Experiment0/RawData81.xml</string>
+    <string>Experiment0/RawData82.xml</string>
+    <string>Experiment0/RawData83.xml</string>
+    <string>Experiment0/RawData84.xml</string>
+    <string>Experiment0/RawData85.xml</string>
+    <string>Experiment0/RawData86.xml</string>
+    <string>Experiment0/RawData87.xml</string>
+    <string>Experiment0/RawData88.xml</string>
+    <string>Experiment0/RawData89.xml</string>
+    <string>Experiment0/RawData90.xml</string>
+  </RawDataReferenceList>
+  <ExperimentInfo LogicName="" VisibleName="">
+    <ApplicationType>Xrf</ApplicationType>
+    <ApplicationTypeSpecific>XrfExtWdxRoutine</ApplicationTypeSpecific>
+    <KeyValueList>
+      <DataList>
+        <CatData cat="MaterialName" name="Material" value="Material" />
+        <CatData cat="FixedCompound" name="FC/F" value="0" unit="PPM" />
+        <CatData cat="FixedCompound" name="FC/C" value="0" unit="%" />
+        <CatData cat="FixedCompound" name="FC/Hydrogen" value="0" unit="%" />
+        <CatData cat="FixedCompound" name="FC/O" value="0" unit="%" />
+        <CatData cat="PreparationName" name="Preparation" value="Solid" />
+        <CatData cat="MethodName" name="Method" value="Calibration Method" />
+        <CatData cat="UsesRoutinePreparationsCategory" name="UsesRoutinePreparations" value="False" />
+        <CatData cat="UserSelectedAtmosphereMaskCategory" name="UserSelectedAtmosphereMode" value="2" />
+        <CatData cat="UserSelectedAtmosphereMaskCategory" name="UserSelectedMaskSize" value="34" />
+        <CatData cat="IncludedMeasurementLine" name="Sb KA1/GEO-QUANT TRACES" value="Sb KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Sn KA1/GEO-QUANT TRACES" value="Sn KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Cd KA1/GEO-QUANT TRACES" value="Cd KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Ag KA1/GEO-QUANT TRACES" value="Ag KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Rh KA1 Compton/GEO-QUANT TRACES" value="Rh KA1 Compton/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Mo KA1/GEO-QUANT TRACES" value="Mo KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Y  KB1/GEO-QUANT TRACES" value="Y  KB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Nb KA1/GEO-QUANT TRACES" value="Nb KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Zr KA1/GEO-QUANT TRACES" value="Zr KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Rb KB1/GEO-QUANT TRACES" value="Rb KB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Y  KA1/GEO-QUANT TRACES" value="Y  KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Sr KA1/GEO-QUANT TRACES" value="Sr KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="U  LA1/GEO-QUANT TRACES" value="U  LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Rb KA1/GEO-QUANT TRACES" value="Rb KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Th LA1/GEO-QUANT TRACES" value="Th LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Pb LB1/GEO-QUANT TRACES" value="Pb LB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Br KA1/GEO-QUANT TRACES" value="Br KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="As KB1/GEO-QUANT TRACES" value="As KB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Se KA1/GEO-QUANT TRACES" value="Se KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Bi LA1/GEO-QUANT TRACES" value="Bi LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Pb LA1/GEO-QUANT TRACES" value="Pb LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="As KA1/GEO-QUANT TRACES" value="As KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Tl LA1/GEO-QUANT TRACES" value="Tl LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Ge KA1/GEO-QUANT TRACES" value="Ge KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Zn KB1/GEO-QUANT TRACES" value="Zn KB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Ga KA1/GEO-QUANT TRACES" value="Ga KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Cu KB1/GEO-QUANT TRACES" value="Cu KB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Zn KA1/GEO-QUANT TRACES" value="Zn KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="W  LA1/GEO-QUANT TRACES" value="W  LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Ni KB1/GEO-QUANT TRACES" value="Ni KB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Ta LA1/GEO-QUANT TRACES" value="Ta LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Cu KA1/GEO-QUANT TRACES" value="Cu KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Hf LA1/GEO-QUANT TRACES" value="Hf LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Ni KA1/GEO-QUANT TRACES" value="Ni KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Yb LA1/GEO-QUANT TRACES" value="Yb LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Tm LA1/GEO-QUANT TRACES" value="Tm LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Fe KB1/GEO-QUANT TRACES" value="Fe KB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Tb LB1/GEO-QUANT TRACES" value="Tb LB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Er LA1/GEO-QUANT TRACES" value="Er LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Co KA1/GEO-QUANT TRACES" value="Co KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Ho LA1/GEO-QUANT TRACES" value="Ho LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Dy LA1/GEO-QUANT TRACES" value="Dy LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Fe KA1/GEO-QUANT TRACES" value="Fe KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Cr KB1/GEO-QUANT TRACES" value="Cr KB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Mn KA1/GEO-QUANT TRACES" value="Mn KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Nd LB1/GEO-QUANT TRACES" value="Nd LB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Sm LA1/GEO-QUANT TRACES" value="Sm LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Cr KA1/GEO-QUANT TRACES" value="Cr KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Nd LA1/GEO-QUANT TRACES" value="Nd LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="La LA1/GEO-QUANT TRACES - MIN" value="La LA1/GEO-QUANT TRACES - MIN" />
+        <CatData cat="IncludedMeasurementLine" name="La LA1/GEO-QUANT TRACES" value="La LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Ce LB1/GEO-QUANT TRACES" value="Ce LB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Ce LB1/GEO-QUANT TRACES - MIN" value="Ce LB1/GEO-QUANT TRACES - MIN" />
+        <CatData cat="IncludedMeasurementLine" name="Pr LA1/GEO-QUANT TRACES" value="Pr LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="V  KA1/GEO-QUANT TRACES" value="V  KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Ti KB1/GEO-QUANT TRACES" value="Ti KB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Ti KA1/GEO-QUANT TRACES" value="Ti KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Ba LA1/GEO-QUANT TRACES" value="Ba LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Cs LA1/GEO-QUANT TRACES" value="Cs LA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Sc KA1/GEO-QUANT TRACES" value="Sc KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Ca KB1/GEO-QUANT TRACES" value="Ca KB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Ca KA1/GEO-QUANT TRACES" value="Ca KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="K  KB1/GEO-QUANT TRACES" value="K  KB1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="K  KA1/GEO-QUANT TRACES" value="K  KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Cl KA1/GEO-QUANT TRACES" value="Cl KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="S  KA1/GEO-QUANT TRACES" value="S  KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="P  KA1/GEO-QUANT TRACES - ALT" value="P  KA1/GEO-QUANT TRACES - ALT" />
+        <CatData cat="IncludedMeasurementLine" name="P  KA1/GEO-QUANT TRACES" value="P  KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Si KA1/GEO-QUANT TRACES" value="Si KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Al KA1/GEO-QUANT TRACES" value="Al KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Mg KA1/GEO-QUANT TRACES" value="Mg KA1/GEO-QUANT TRACES" />
+        <CatData cat="IncludedMeasurementLine" name="Na KA1/GEO-QUANT TRACES" value="Na KA1/GEO-QUANT TRACES" />
+      </DataList>
+    </KeyValueList>
+    <Sequences />
+    <SplitterWithXY>false</SplitterWithXY>
+    <InstrumentDescription>
+      <InstrumentName>S8T-297801</InstrumentName>
+      <IcsVersion>ICS,Version=9.10RC/23-Mar-2026 build 7c8ff8cf1 bcb5f48 (Mar 23 2026 13:35:40)</IcsVersion>
+      <SerialNo>297801</SerialNo>
+      <MaintenanceNumber>0</MaintenanceNumber>
+      <BootDevType>A55</BootDevType>
+      <DeviceType>A55</DeviceType>
+      <DeviceTypeDesc>XRF WDX Floorstanding</DeviceTypeDesc>
+      <BimlFile />
+      <InstrumentDatabaseId>0</InstrumentDatabaseId>
+      <IPAinstrument>false</IPAinstrument>
+      <InstrumentVerificationState>Disabled</InstrumentVerificationState>
+    </InstrumentDescription>
+  </ExperimentInfo>
+  <MeasurementInfo UserName="Bruker Testfield" Site="" Comment="" SampleName="GQT.Blank-GQT0-MD01" ScriptName="" BsmlFileName="GEO-QUANT TRACES" SamplePosition="6C04" UserTaskFile="" InstrumentVerificationState="Disabled" />
+  <ReferencedMeasurements />
+  <EvalInfoList />
+  <TotalMeasurementTime Unit="s" Value="5805.95382" />
+</DataContainer>

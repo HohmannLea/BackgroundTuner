@@ -8,18 +8,17 @@
     ".NETCoreApp,Version=v8.0": {
       "BackgroundTuner/1.0.0": {
         "dependencies": {
-          "Bruker.FPQ.PhaFitting": "5.2.0"
+          "BrukerAXS.IO.SimpleBrmlReader.Xrf": "12.0.1"
         },
         "runtime": {
           "BackgroundTuner.dll": {}
         }
       },
-      "Bruker.FPQ.PhaFitting/5.2.0": {
-        "runtimeTargets": {
-          "runtimes/win-x64/native/Bruker.FPQ.PhaFitting.dll": {
-            "rid": "win-x64",
-            "assetType": "native",
-            "fileVersion": "1.0.0.0"
+      "BrukerAXS.IO.SimpleBrmlReader.Xrf/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/BrukerAXS.IO.SimpleBrmlReader.Xrf.dll": {
+            "assemblyVersion": "12.0.1.0",
+            "fileVersion": "0.0.0.0"
           }
         }
       }
@@ -31,12 +30,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Bruker.FPQ.PhaFitting/5.2.0": {
+    "BrukerAXS.IO.SimpleBrmlReader.Xrf/12.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-chESddnyblIRHxoMuEwvnyZVXS3lRErab+FkD7roPPo4dH8Z/T7LJWIFDpTLOCgr3DHkA7yr9cQZKrX3z5EX3w==",
-      "path": "bruker.fpq.phafitting/5.2.0",
-      "hashPath": "bruker.fpq.phafitting.5.2.0.nupkg.sha512"
+      "sha512": "sha512-CCTnQxtHn01VFMLD7brbH8K9F4WFMcQtexyFaLsr+c4ieyo3l0OvV9huMa8pJGlmR6WHyBSdPFdS1caPsBe7QA==",
+      "path": "brukeraxs.io.simplebrmlreader.xrf/12.0.1",
+      "hashPath": "brukeraxs.io.simplebrmlreader.xrf.12.0.1.nupkg.sha512"
     }
   }
 }

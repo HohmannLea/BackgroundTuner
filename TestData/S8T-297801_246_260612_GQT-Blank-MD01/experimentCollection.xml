@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ExperimentCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EstimatedTotalTime="2721.216" ScriptName="ScriptXrfMeasurement.cs">
+  <CreatingVersion>9.4.21.0</CreatingVersion>
+  <Identifier IdentificationType="ExperimentCollection" UserName="" MachineName="DESKTOP-FBQ7C8O">
+    <Guid>7242b510-bc28-4218-a338-5596b81bf723</Guid>
+    <Comment />
+    <TimeStampCreated>2026-02-25T16:11:46.0050469+01:00</TimeStampCreated>
+  </Identifier>
+  <ExperimentContainerItems>
+    <ExperimentType>Standard</ExperimentType>
+    <ExperimentFlags>None</ExperimentFlags>
+    <ApplicationType>Xrf</ApplicationType>
+    <ApplicationTypeSpecific>XrfExtWdxRoutine</ApplicationTypeSpecific>
+    <AppInfo AppType="Xrf" AppTypeSpecific="XrfExtWdxRoutine" DatabaseSampleID="" />
+    <EstimatedTime Unit="s" Value="5421.284" />
+    <MatchingModelUsed>Strict</MatchingModelUsed>
+  </ExperimentContainerItems>
+  <EstimatedTime Unit="s" Value="0" />
+</ExperimentCollection>
