@@ -1,14 +1,17 @@
+using BackgroundTuner.Models;
+using BackgroundTuner.Services;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Text.Json;
 using System.Windows;
 using System.Windows.Input;
-using Microsoft.Win32;
-using BackgroundTuner.Models;
-using BackgroundTuner.Services;
+using System.Windows.Shapes;
+
 
 namespace BackgroundTuner.ViewModels
 {
@@ -108,7 +111,7 @@ namespace BackgroundTuner.ViewModels
                 _isMasterBlankLoaded = false;
                 _isCurrentBlankLoaded = false;
 
-                BsmlStatusText = Path.GetFileName(filePath);
+                BsmlStatusText = System.IO.Path.GetFileName(filePath);
                 MasterBlankStatusText = "No file selected";
                 CurrentBlankStatusText = "No file selected";
 
@@ -179,12 +182,12 @@ namespace BackgroundTuner.ViewModels
                 if (blankType == "MasterBlank")
                 {
                     _isMasterBlankLoaded = true;
-                    MasterBlankStatusText = Path.GetFileName(filePath);
+                    MasterBlankStatusText = System.IO.Path.GetFileName(filePath);
                 }
                 else
                 {
                     _isCurrentBlankLoaded = true;
-                    CurrentBlankStatusText = Path.GetFileName(filePath);
+                    CurrentBlankStatusText = System.IO.Path.GetFileName(filePath);
                 }
 
                 RefreshCommandStates();
@@ -218,6 +221,31 @@ namespace BackgroundTuner.ViewModels
             if (string.IsNullOrWhiteSpace(outputFilePath))
             {
                 return;
+            }
+
+            try
+            {
+                var lineSummary = _dataset.Lines.Select(line => new
+                {
+                    line._name,
+                    line._hasSensorBoost,
+                    line._masterDriftIntensity,
+                    line._currentDriftIntensity,
+                    line._masterBlankIntensity,
+                    line._currentBlankIntensity,
+                    line._theoBGFactorOld,
+                    line._correctedBGFactor,
+                });
+
+                var json = JsonSerializer.Serialize(lineSummary, new JsonSerializerOptions { WriteIndented = true });
+
+                var outputDirectory = System.IO.Path.GetDirectoryName(outputFilePath) ?? AppContext.BaseDirectory;
+                var summaryPath = System.IO.Path.Combine(outputDirectory, "calculation_line_summary.json");
+                File.WriteAllText(summaryPath, json);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Failed to save summary JSON file: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
 
             try
@@ -266,8 +294,8 @@ namespace BackgroundTuner.ViewModels
 
         private static string? GetSaveFilePath(string sourceBsmlPath)
         {
-            var sourceDirectory = Path.GetDirectoryName(sourceBsmlPath) ?? string.Empty;
-            var sourceFileName = Path.GetFileNameWithoutExtension(sourceBsmlPath);
+            var sourceDirectory = System.IO.Path.GetDirectoryName(sourceBsmlPath) ?? string.Empty;
+            var sourceFileName = System.IO.Path.GetFileNameWithoutExtension(sourceBsmlPath);
 
             var dialog = new SaveFileDialog
             {

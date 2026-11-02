@@ -6,7 +6,15 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\brukerlogo.ico</ApplicationIcon>
+    <StartupObject>BackgroundTuner.App</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\brukerlogo.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="BrukerAXS.IO.SimpleBrmlReader.Xrf" Version="12.0.1" />

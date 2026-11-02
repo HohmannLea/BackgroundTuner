@@ -3,14 +3,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:BackgroundTuner"
         mc:Ignorable="d"
         Title="Theoretical Background Tuner"
+        Icon="/Assets/brukerlogo.ico"
         Height="450"
-        Width="800">
+        Width="400">
     <Grid Margin="16">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
@@ -22,7 +21,8 @@
 
             <Button Content="Choose file..."
                     Width="120"
-                    Margin="0,0,0,8" />
+                    Margin="0,0,0,8"
+                    Command="{Binding LoadBsmlCommand}" />
 
             <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
                 <TextBlock Text="⚠"
@@ -30,7 +30,7 @@
                            FontSize="14"
                            Margin="0,0,6,0"
                            VerticalAlignment="Center" />
-                <TextBlock Text="No file selected"
+                <TextBlock Text="{Binding BsmlStatusText}"
                            VerticalAlignment="Center" />
             </StackPanel>
 
@@ -46,7 +46,9 @@
 
             <Button Content="Choose file..."
                     Width="120"
-                    Margin="0,0,0,8" />
+                    Margin="0,0,0,8"
+                    Command="{Binding LoadBrmlCommand}"
+                    CommandParameter="MasterBlank" />
 
             <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
                 <TextBlock Text="⚠"
@@ -54,17 +56,19 @@
                            FontSize="14"
                            Margin="0,0,6,0"
                            VerticalAlignment="Center" />
-                <TextBlock Text="No file selected"
+                <TextBlock Text="{Binding MasterBlankStatusText}"
                            VerticalAlignment="Center" />
             </StackPanel>
 
             <TextBlock Text="Current Blank"
                        FontSize="13"
                        FontWeight="SemiBold" />
-            
+
             <Button Content="Choose file..."
                     Width="120"
-                    Margin="0,0,0,8" />
+                    Margin="0,0,0,8"
+                    Command="{Binding LoadBrmlCommand}"
+                    CommandParameter="CurrentBlank" />
 
             <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
                 <TextBlock Text="⚠"
@@ -72,7 +76,7 @@
                            FontSize="14"
                            Margin="0,0,6,0"
                            VerticalAlignment="Center" />
-                <TextBlock Text="No file selected"
+                <TextBlock Text="{Binding CurrentBlankStatusText}"
                            VerticalAlignment="Center" />
             </StackPanel>
 
@@ -83,17 +87,9 @@
 
             <Button Content="Recalculate"
                     Width="120"
-                    Margin="0,0,0,8" />
-
+                    Margin="0,0,0,8"
+                    Command="{Binding RecalculateCommand}" />
         </StackPanel>
-
-        <Grid Grid.Column="1">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-        </Grid>
+        
     </Grid>
 </Window>
