@@ -140,7 +140,14 @@ namespace BackgroundTuner.Services
 
                 // Drift entries
                 var latestDriftEntry = driftData[driftindex].Where(row => row[13] == "True").Where(row => row[8] == currentDataset.instrumentNumber).OrderByDescending(row => DateTimeOffset.Parse(row[6])).FirstOrDefault();
-                line._currentDriftIntensity = double.Parse(latestDriftEntry[1], CultureInfo.InvariantCulture);
+                if (line._hasSensorBoost == false)
+                {
+                    line._currentDriftIntensity = double.Parse(latestDriftEntry[1], CultureInfo.InvariantCulture);
+                }
+                else
+                {
+                    line._currentDriftIntensity = double.Parse(latestDriftEntry[22], CultureInfo.InvariantCulture);
+                }
 
                 var masterDriftEntries = driftData[driftindex].Where(row => row[13] == "True").Where(row => row[8] == currentDataset.masterInstrument).OrderByDescending(row => DateTimeOffset.Parse(row[6])).ToList();
                 var calibrationMeasDate = DateTimeOffset.Parse(_lineCalibration[line._lineIndex][2]);
@@ -149,7 +156,14 @@ namespace BackgroundTuner.Services
                 {
                     calibDriftEntry = masterDriftEntries.Where(row => DateTimeOffset.Parse(row[6]) > calibrationMeasDate).LastOrDefault();
                 }
-                line._masterDriftIntensity = double.Parse(calibDriftEntry[1], CultureInfo.InvariantCulture);
+                if (line._hasSensorBoost == false)
+                {
+                    line._masterDriftIntensity = double.Parse(calibDriftEntry[1], CultureInfo.InvariantCulture);
+                }
+                else
+                {
+                    line._masterDriftIntensity = double.Parse(calibDriftEntry[22], CultureInfo.InvariantCulture);
+                }
 
                 // Calibration
 
